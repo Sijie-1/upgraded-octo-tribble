@@ -22,8 +22,8 @@ print("Iniciando servidor de Minecraft...")
 server_process = subprocess.Popen(
     [
         "java",
-        "-Xms14G",
-        "-Xmx14G",
+        "-Xms15G",
+        "-Xmx15G",
         "-jar",
         "/workspaces/upgraded-octo-tribble/server/java-execute.jar"
     ],

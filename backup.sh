@@ -7,7 +7,7 @@ cd /workspaces/upgraded-octo-tribble
 git add .
 
 # Hacer commit con mensaje
-git commit -m "Actualización"
+git commit -m "Actualización de solo world"
 
 # Subir los cambios a GitHub
 git push origin main
