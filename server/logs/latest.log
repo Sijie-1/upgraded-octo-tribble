@@ -1,5 +1,5 @@
-[22:12:41] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
-[22:12:41] [main/INFO]: Loading 62 mods:
+[00:05:37] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
+[00:05:38] [main/INFO]: Loading 62 mods:
 	- architectury 9.2.14
 	- fabric-api 0.92.6+1.20.1
 	   |-- fabric-api-base 0.4.32+1802ada577
@@ -75,71 +75,224 @@
 	- minecraft 1.20.1
 	- skin_changer 0.6.6
 	- tpaplusplus 1.6.0-1.20.x-RELEASE-CANDIDATE-1
-[22:12:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/upgraded-octo-tribble/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:12:42] [main/INFO]: Compatibility level set to JAVA_16
-[22:12:42] [main/INFO]: Compatibility level set to JAVA_17
-[22:12:42] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[22:12:48] [main/INFO]: INITIALIZING...
-[22:12:48] [main/INFO]: REGISTERING BACK COMMAND...
-[22:12:48] [main/INFO]: REGISTERING TPAACCEPT COMMAND...
-[22:12:48] [main/INFO]: REGISTERING TPACANCEL COMMAND...
-[22:12:48] [main/INFO]: REGISTERING TPA COMMAND...
-[22:12:48] [main/INFO]: REGISTERING TPADENY COMMAND...
-[22:12:48] [main/INFO]: REGISTERING TPAHERE COMMAND...
-[22:12:48] [main/INFO]: REGISTERING TPAPLUSPLUS COMMAND...
-[22:12:48] [main/INFO]: REGISTERING TPBLOCK COMMAND...
-[22:12:48] [main/INFO]: REGISTERING TPTOGGLE COMMAND...
-[22:12:48] [main/INFO]: REGISTERING TPUNBLOCK COMMAND...
-[22:12:48] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STARTED"...
-[22:12:48] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STOPPING"...
-[22:12:48] [main/INFO]: REGISTERING "LifecycleEvent.LIVING_DEATH"...
-[22:12:48] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_JOIN"...
-[22:12:48] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_LEAVE"...
-[22:12:48] [main/INFO]: REGISTERING "RequestTimeoutEvent"...
-[22:12:48] [main/WARN]: USING EXPERIMENTAL NON BLOCKING TICK LOOP
-[22:12:48] [main/INFO]: INITIALIZING TICK LOOP WITH RATE OF 20...
-[22:12:48] [main/INFO]: ...INITIALIZATION COMPLETE
-[22:12:48] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
-[22:12:48] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
-[22:12:48] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:12:49] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
-[22:12:49] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
-[22:12:50] [main/INFO]: Loaded 7 recipes
-[22:12:50] [main/INFO]: Loaded 1271 advancements
-[22:12:51] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.582 ms
-[22:12:51] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[22:12:51] [Server thread/INFO]: Loading properties
-[22:12:51] [Server thread/INFO]: Default game type: SURVIVAL
-[22:12:51] [Server thread/INFO]: Generating keypair
-[22:12:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:12:51] [Server thread/INFO]: Using epoll channel type
-[22:12:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:12:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:12:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:12:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:12:51] [Server thread/INFO]: Preparing level "world"
-[22:12:54] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:12:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:12:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[22:12:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[22:12:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:12:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:12:57] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[22:12:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[22:12:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[22:12:58] [Worker-Main-2/INFO]: Preparing spawn area: 12%
-[22:12:58] [Worker-Main-2/INFO]: Preparing spawn area: 88%
-[22:12:58] [Server thread/INFO]: Time elapsed: 4563 ms
-[22:12:58] [Server thread/INFO]: Done (7.269s)! For help, type "help"
-[22:12:58] [Server thread/INFO]: Successfully loaded player data!
-[22:13:05] [Server thread/INFO]: xXxJosue_A[/127.168.148.108:41683] logged in with entity id 85 at (643.1264625688309, 64.0, -257.1988860882766)
-[22:13:05] [Server thread/INFO]: xXxJosue_A joined the game
-[22:13:05] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
-[22:13:05] [ForkJoinPool-3-worker-1/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
-[22:13:06] [ForkJoinPool-3-worker-1/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
-[22:15:57] [Server thread/INFO]: xXxJosue_A was slain by Iron Golem
-[22:16:06] [Server thread/INFO]: xXxJosue_A was slain by Iron Golem
-[22:18:27] [Server thread/INFO]: xXxJosue_A has made the advancement [Sweet Dreams]
-[22:24:09] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
-[22:24:09] [Server thread/INFO]: xXxJosue_A left the game
-[22:24:09] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[00:05:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/upgraded-octo-tribble/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:05:39] [main/INFO]: Compatibility level set to JAVA_16
+[00:05:39] [main/INFO]: Compatibility level set to JAVA_17
+[00:05:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[00:05:46] [main/INFO]: INITIALIZING...
+[00:05:46] [main/INFO]: REGISTERING BACK COMMAND...
+[00:05:46] [main/INFO]: REGISTERING TPAACCEPT COMMAND...
+[00:05:46] [main/INFO]: REGISTERING TPACANCEL COMMAND...
+[00:05:46] [main/INFO]: REGISTERING TPA COMMAND...
+[00:05:46] [main/INFO]: REGISTERING TPADENY COMMAND...
+[00:05:46] [main/INFO]: REGISTERING TPAHERE COMMAND...
+[00:05:46] [main/INFO]: REGISTERING TPAPLUSPLUS COMMAND...
+[00:05:46] [main/INFO]: REGISTERING TPBLOCK COMMAND...
+[00:05:46] [main/INFO]: REGISTERING TPTOGGLE COMMAND...
+[00:05:46] [main/INFO]: REGISTERING TPUNBLOCK COMMAND...
+[00:05:46] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STARTED"...
+[00:05:46] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STOPPING"...
+[00:05:46] [main/INFO]: REGISTERING "LifecycleEvent.LIVING_DEATH"...
+[00:05:46] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_JOIN"...
+[00:05:46] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_LEAVE"...
+[00:05:46] [main/INFO]: REGISTERING "RequestTimeoutEvent"...
+[00:05:46] [main/WARN]: USING EXPERIMENTAL NON BLOCKING TICK LOOP
+[00:05:46] [main/INFO]: INITIALIZING TICK LOOP WITH RATE OF 20...
+[00:05:47] [main/INFO]: ...INITIALIZATION COMPLETE
+[00:05:47] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
+[00:05:47] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
+[00:05:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:05:48] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
+[00:05:48] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
+[00:05:49] [main/INFO]: Loaded 7 recipes
+[00:05:49] [main/INFO]: Loaded 1271 advancements
+[00:05:50] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.612 ms
+[00:05:50] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[00:05:50] [Server thread/INFO]: Loading properties
+[00:05:50] [Server thread/INFO]: Default game type: SURVIVAL
+[00:05:50] [Server thread/INFO]: Generating keypair
+[00:05:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:05:50] [Server thread/INFO]: Using epoll channel type
+[00:05:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:05:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:05:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:05:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:05:50] [Server thread/INFO]: Preparing level "world"
+[00:05:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:05:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:05:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:05:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:05:54] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:05:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[00:05:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[00:05:56] [Worker-Main-2/INFO]: Preparing spawn area: 2%
+[00:05:56] [Worker-Main-1/INFO]: Preparing spawn area: 13%
+[00:05:57] [Worker-Main-1/INFO]: Preparing spawn area: 27%
+[00:05:57] [Worker-Main-2/INFO]: Preparing spawn area: 81%
+[00:05:57] [Server thread/INFO]: Time elapsed: 4599 ms
+[00:05:57] [Server thread/INFO]: Done (7.245s)! For help, type "help"
+[00:05:58] [Server thread/INFO]: Successfully loaded player data!
+[00:08:37] [Server thread/INFO]: xXxJosue_A[/127.168.148.108:34333] logged in with entity id 85 at (574.2673464398175, 63.0, -275.44323760900534)
+[00:08:37] [Server thread/INFO]: xXxJosue_A joined the game
+[00:08:37] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[00:08:37] [ForkJoinPool-3-worker-1/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[00:08:37] [ForkJoinPool-3-worker-1/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[00:10:16] [Server thread/INFO]: [Not Secure] [Server] oye josue puedes ver esto manda un mensaje al chat
+[00:10:54] [Server thread/INFO]: [Not Secure] [Server] 👍👍👍👍👍👍
+[00:23:33] [Server thread/INFO]: ItsMeYo[/127.63.68.41:55775] logged in with entity id 3147 at (597.4243129831694, 64.0, -283.61765198687937)
+[00:23:33] [Server thread/INFO]: ItsMeYo joined the game
+[00:23:33] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
+[00:23:33] [ForkJoinPool-3-worker-2/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
+[00:23:33] [ForkJoinPool-3-worker-2/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
+[00:24:00] [Server thread/INFO]: [Not Secure] [Server] 👍👍👍👍👍👍👍👍👍👍
+[00:24:04] [Server thread/INFO]: [Not Secure] <xXxJosue_A> chen mete el voischat o como se escriba
+[00:24:18] [Server thread/INFO]: [Not Secure] <ItsMeYo> en primeras, tienes microfono en tu pc?
+[00:24:31] [Server thread/INFO]: [Not Secure] <xXxJosue_A> buen punto
+[00:24:36] [Server thread/INFO]: [Not Secure] <ItsMeYo> tviste
+[00:29:20] [Server thread/INFO]: [Not Secure] <xXxJosue_A> tienes cortapiedras???
+[00:29:24] [Server thread/INFO]: [Not Secure] <ItsMeYo> non
+[00:34:35] [Server thread/INFO]: [Not Secure] <ItsMeYo> quema la casa
+[00:34:37] [Server thread/INFO]: xXxJosue_A has made the advancement [Not Today, Thank You]
+[00:35:13] [Server thread/INFO]: [Not Secure] <ItsMeYo> oyee tu sabes de ltematica
+[00:35:19] [Server thread/INFO]: [Not Secure] <xXxJosue_A> sisas
+[00:35:25] [Server thread/INFO]: [Not Secure] <ItsMeYo> se me puso algo que no me deja prrecionar nada
+[00:35:30] [Server thread/INFO]: [Not Secure] <ItsMeYo> placement none
+[00:35:31] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya descargue una granja de hierro
+[00:35:32] [Server thread/INFO]: [Not Secure] <ItsMeYo> que hago
+[00:35:33] [Server thread/INFO]: [Not Secure] <xXxJosue_A> te paso?
+[00:35:37] [Server thread/INFO]: [Not Secure] <ItsMeYo> se me puso algo que no me deja prrecionar nada
+[00:35:39] [Server thread/INFO]: [Not Secure] <ItsMeYo> que hago
+[00:36:00] [Server thread/INFO]: [Not Secure] <ItsMeYo> ah no ya le arregle
+[00:36:02] [Server thread/INFO]: [Not Secure] <ItsMeYo> xd
+[00:36:10] [Server thread/INFO]: [Not Secure] <xXxJosue_A> con cual boton?
+[00:36:22] [Server thread/INFO]: [Not Secure] <ItsMeYo> nose xd
+[00:36:25] [Server thread/INFO]: [Not Secure] <ItsMeYo> aparecio de la na
+[00:36:53] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ese era para cuando pongas bloque en una litematica se pongan auto
+[00:37:05] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya toca verle luego quema las casas
+[00:37:58] [Server thread/INFO]: [Not Secure] <xXxJosue_A> comida?
+[00:38:11] [Server thread/INFO]: [Not Secure] <ItsMeYo> no tengo
+[00:38:14] [Server thread/INFO]: [Not Secure] <ItsMeYo> zombies
+[00:38:16] [Server thread/INFO]: [Not Secure] <ItsMeYo> comer
+[00:38:21] [Server thread/INFO]: [Not Secure] <ItsMeYo> yo
+[00:41:06] [Server thread/INFO]: [Not Secure] <xXxJosue_A> le vas a meter a jenny?
+[00:41:19] [Server thread/INFO]: [Not Secure] <ItsMeYo> en otro mundo
+[00:41:36] [Server thread/INFO]: ItsMeYo has made the advancement [Not Today, Thank You]
+[00:42:06] [Server thread/INFO]: [Not Secure] <ItsMeYo> aca aparecen esos caballos esqueletos
+[00:42:08] [Server thread/INFO]: [Not Secure] <ItsMeYo> tatento
+[00:42:14] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ok
+[00:42:20] [Server thread/INFO]: [Not Secure] <ItsMeYo> hdp
+[00:42:37] [Server thread/INFO]: [Not Secure] <ItsMeYo> bravo
+[00:42:38] [Server thread/INFO]: [Not Secure] <ItsMeYo> bravo
+[00:42:40] [Server thread/INFO]: [Not Secure] <ItsMeYo> bravoo
+[00:42:42] [Server thread/INFO]: [Not Secure] <xXxJosue_A> hdp
+[00:42:46] [Server thread/INFO]: [Not Secure] <ItsMeYo> genio
+[00:44:10] [Server thread/INFO]: [Not Secure] <xXxJosue_A> nmms no se prende fuego
+[00:44:20] [Server thread/INFO]: [Not Secure] <ItsMeYo> estaba lloviendo
+[00:44:21] [Server thread/INFO]: [Not Secure] <ItsMeYo> gay
+[00:44:24] [Server thread/INFO]: [Not Secure] <xXxJosue_A> lptm
+[00:44:37] [Server thread/INFO]: [Not Secure] <ItsMeYo> no lo ves pq esta las particulas desactivadas
+[00:44:40] [Server thread/INFO]: [Not Secure] <ItsMeYo> luego te va mal
+[00:45:30] [Server thread/INFO]: [Not Secure] <ItsMeYo> y zanahorias no?
+[00:45:37] [Server thread/INFO]: [Not Secure] <xXxJosue_A> no comida de mrd
+[00:45:42] [Server thread/INFO]: [Not Secure] <ItsMeYo> tya chato
+[00:45:44] [Server thread/INFO]: [Not Secure] <xXxJosue_A> huesos?
+[00:46:00] [Server thread/INFO]: [Not Secure] <ItsMeYo> no tengo toca ir al nether a ver esos bloques
+[00:46:05] [Server thread/INFO]: [Not Secure] <xXxJosue_A> mmmm
+[00:46:09] [Server thread/INFO]: [Not Secure] <ItsMeYo> tvoy air a buscar lava
+[00:46:23] [Server thread/INFO]: [Not Secure] <xXxJosue_A> yaya
+[00:46:57] [Server thread/INFO]: [Not Secure] <ItsMeYo> tenes cuvos
+[00:47:07] [Server thread/INFO]: [Not Secure] <ItsMeYo> cubos
+[00:47:23] [Server thread/INFO]: [Not Secure] <xXxJosue_A> no
+[00:47:25] [Server thread/INFO]: [Not Secure] <xXxJosue_A> 1
+[00:47:52] [Server thread/INFO]: [Not Secure] <ItsMeYo> voy a buscar estalactitas para dupear ava
+[00:47:54] [Server thread/INFO]: [Not Secure] <ItsMeYo> lava
+[00:55:19] [Server thread/INFO]: [Not Secure] <ItsMeYo> noooo
+[00:55:26] [Server thread/INFO]: [Not Secure] <ItsMeYo> porque con cobestone
+[00:55:37] [Server thread/INFO]: [Not Secure] <xXxJosue_A> tierra prefieres
+[00:55:44] [Server thread/INFO]: [Not Secure] <ItsMeYo> pero cocina la piedra
+[00:55:47] [Server thread/INFO]: [Not Secure] <ItsMeYo> para q sea lsia
+[00:55:49] [Server thread/INFO]: [Not Secure] <ItsMeYo> lisa
+[00:55:51] [Server thread/INFO]: [Not Secure] <xXxJosue_A> chchchc
+[00:55:57] [Server thread/INFO]: [Not Secure] <xXxJosue_A> egg
+[00:56:13] [Server thread/INFO]: [Not Secure] <xXxJosue_A> lana?
+[00:56:21] [Server thread/INFO]: [Not Secure] <ItsMeYo> toma
+[00:56:34] [Server thread/INFO]: [Not Secure] <ItsMeYo> toma
+[00:56:34] [Server thread/INFO]: [Not Secure] <ItsMeYo> toma
+[00:56:35] [Server thread/INFO]: [Not Secure] <ItsMeYo> toma
+[00:56:35] [Server thread/INFO]: [Not Secure] <ItsMeYo> toma
+[00:56:36] [Server thread/INFO]: [Not Secure] <ItsMeYo> toma
+[01:00:56] [Server thread/INFO]: [Not Secure] <xXxJosue_A> quita los claderos
+[01:01:13] [Server thread/INFO]: [Not Secure] <ItsMeYo> hay q guardar a los aldeanos
+[01:05:47] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
+[01:05:47] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
+[01:07:55] [Server thread/INFO]: [Not Secure] <ItsMeYo> dales zanahorias
+[01:08:18] [Server thread/INFO]: [Not Secure] <xXxJosue_A> van a plantar zanahorias
+[01:08:22] [Server thread/INFO]: [Not Secure] <ItsMeYo> bueno
+[01:08:51] [Server thread/INFO]: [Not Secure] <xXxJosue_A> vrg
+[01:09:54] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya hay 4 stacks de cobestone en el cobre cocinada
+[01:10:01] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya
+[01:11:33] [Server thread/INFO]: [Not Secure] <xXxJosue_A> falta 1 aldeano
+[01:11:40] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya nada ya toca reproducir
+[01:12:06] [Server thread/INFO]: [Not Secure] <ItsMeYo> donde pongo el portal para luego decorar
+[01:12:43] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[01:12:43] [Server thread/INFO]: xXxJosue_A left the game
+[01:12:43] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:12:43] [Server thread/WARN]: handleDisconnection() called twice
+[01:13:02] [Server thread/INFO]: xXxJosue_A[/127.168.148.108:60575] logged in with entity id 13902 at (574.7827416048432, 64.0, -283.58095219157116)
+[01:13:02] [Server thread/INFO]: xXxJosue_A joined the game
+[01:13:02] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:13:02] [ForkJoinPool-3-worker-3/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:13:03] [ForkJoinPool-3-worker-3/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:13:32] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:13:32] [Server thread/INFO]: xXxJosue_A left the game
+[01:13:32] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:13:57] [Server thread/INFO]: xXxJosue_A[/127.168.148.108:42099] logged in with entity id 14045 at (574.7827416048432, 64.0, -283.58095219157116)
+[01:13:57] [Server thread/INFO]: xXxJosue_A joined the game
+[01:13:57] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:13:57] [ForkJoinPool-3-worker-3/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:13:57] [ForkJoinPool-3-worker-3/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:14:12] [Server thread/INFO]: [Not Secure] <xXxJosue_A> cheeen
+[01:14:17] [Server thread/INFO]: [Not Secure] <ItsMeYo> qqq
+[01:14:19] [Server thread/INFO]: [Not Secure] <xXxJosue_A> chen
+[01:14:22] [Server thread/INFO]: [Not Secure] <ItsMeYo> tqqqq
+[01:14:27] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:14:27] [Server thread/INFO]: xXxJosue_A left the game
+[01:14:27] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:15:02] [Server thread/INFO]: xXxJosue_A[/127.168.148.108:51435] logged in with entity id 14188 at (574.7827416048432, 64.0, -283.58095219157116)
+[01:15:02] [Server thread/INFO]: xXxJosue_A joined the game
+[01:15:02] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:15:02] [ForkJoinPool-3-worker-4/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:15:02] [ForkJoinPool-3-worker-4/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:15:24] [Server thread/INFO]: [Not Secure] <xXxJosue_A> chen
+[01:15:28] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[01:15:28] [Server thread/INFO]: xXxJosue_A left the game
+[01:15:28] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:15:52] [Server thread/INFO]: xXxJosue_A[/127.168.148.108:56953] logged in with entity id 14316 at (574.7827416048432, 64.0, -283.58095219157116)
+[01:15:52] [Server thread/INFO]: xXxJosue_A joined the game
+[01:15:52] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:15:52] [ForkJoinPool-3-worker-4/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:15:52] [Server thread/INFO]: _luniyuxx[/127.207.82.28:46377] logged in with entity id 14317 at (570.8144728282462, 63.0, -278.0834845782788)
+[01:15:52] [Server thread/INFO]: _luniyuxx joined the game
+[01:15:52] [Server thread/INFO]: Player _luniyuxx just logged in with id bd12c95f-372c-37d3-9122-d4299caee58a
+[01:15:52] [ForkJoinPool-3-worker-4/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:15:53] [ForkJoinPool-3-worker-5/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
+[01:15:53] [ForkJoinPool-3-worker-5/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
+[01:15:53] [ForkJoinPool-3-worker-5/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
+[01:16:22] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:16:22] [Server thread/INFO]: xXxJosue_A left the game
+[01:16:22] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:17:07] [Server thread/INFO]: xXxJosue_A[/127.168.148.108:58473] logged in with entity id 14489 at (574.7827416048432, 63.231523797587016, -283.58095219157116)
+[01:17:07] [Server thread/INFO]: xXxJosue_A joined the game
+[01:17:07] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:17:07] [ForkJoinPool-3-worker-4/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:17:07] [ForkJoinPool-3-worker-4/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:17:13] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[01:17:13] [Server thread/INFO]: xXxJosue_A left the game
+[01:17:13] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:17:27] [Server thread/INFO]: [Not Secure] <_luniyuxx> que van a hacer
+[01:17:34] [Server thread/INFO]: [Not Secure] <ItsMeYo> muchas cosas grnja
+[01:18:07] [Server thread/INFO]: _luniyuxx lost connection: Disconnected
+[01:18:07] [Server thread/INFO]: _luniyuxx left the game
+[01:18:33] [Server thread/INFO]: ItsMeYo lost connection: Disconnected
+[01:18:33] [Server thread/INFO]: ItsMeYo left the game
+[01:18:33] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
