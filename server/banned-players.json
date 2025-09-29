@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "82f9ec7a-bff4-4a4f-a96b-c7d2eb27410d",
+    "name": "Jordan",
+    "created": "2025-09-29 16:34:55 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
