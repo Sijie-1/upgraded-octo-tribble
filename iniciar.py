@@ -17,7 +17,7 @@ playit_process = subprocess.Popen(
 )
 time.sleep(5)
 
-# Iniciar el servidor de Minecraft con los flags de Aikar
+# Iniciar el servidor de Minecraft
 print("Iniciando servidor de Minecraft...")
 server_process = subprocess.Popen(
     [
@@ -46,7 +46,7 @@ server_process = subprocess.Popen(
         "-jar",
         "/workspaces/upgraded-octo-tribble/server/java-execute.jar"
     ],
-    cwd=server_dir,  # Se usa el directorio del servidor definido arriba
+    cwd=server_dir,
     stdout=sys.stdout,
     stderr=sys.stderr
 )

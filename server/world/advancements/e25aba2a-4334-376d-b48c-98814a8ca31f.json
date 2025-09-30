@@ -10,11 +10,14 @@
       "minecraft:deep_ocean": "2025-09-28 20:12:45 +0000",
       "minecraft:sunflower_plains": "2025-09-28 21:37:43 +0000",
       "minecraft:birch_forest": "2025-09-28 19:26:24 +0000",
+      "minecraft:windswept_hills": "2025-09-30 21:41:10 +0000",
       "minecraft:beach": "2025-09-28 19:22:50 +0000",
       "minecraft:river": "2025-09-28 20:11:17 +0000",
       "minecraft:dripstone_caves": "2025-09-28 21:44:28 +0000",
+      "minecraft:swamp": "2025-09-30 21:29:06 +0000",
       "minecraft:forest": "2025-09-28 19:21:42 +0000",
       "minecraft:ocean": "2025-09-28 20:05:35 +0000",
+      "minecraft:windswept_savanna": "2025-09-30 21:41:09 +0000",
       "minecraft:flower_forest": "2025-09-28 21:37:22 +0000",
       "minecraft:plains": "2025-09-28 19:45:09 +0000"
     },
@@ -1177,6 +1180,7 @@
       "minecraft:skeleton": "2025-09-28 20:32:42 +0000",
       "minecraft:spider": "2025-09-28 20:49:54 +0000",
       "minecraft:creeper": "2025-09-28 21:51:04 +0000",
+      "minecraft:slime": "2025-09-30 21:35:10 +0000",
       "minecraft:witch": "2025-09-29 15:22:49 +0000",
       "minecraft:cave_spider": "2025-09-30 19:47:26 +0000",
       "minecraft:zombie": "2025-09-28 20:28:23 +0000",
@@ -2442,6 +2446,90 @@
   "minecraft:recipes/building_blocks/diorite_stairs": {
     "criteria": {
       "has_diorite": "2025-09-30 19:46:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-09-30 21:38:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-09-30 21:57:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-09-30 21:29:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-09-30 21:35:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-09-30 21:29:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-09-30 21:57:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-09-30 21:57:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-09-30 21:29:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-09-30 21:35:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-09-30 21:57:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-09-30 21:35:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime_block": "2025-09-30 21:43:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-09-30 21:58:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-09-30 21:57:08 +0000"
     },
     "done": true
   },
