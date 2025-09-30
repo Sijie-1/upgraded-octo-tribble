@@ -1,6 +1,7 @@
 import subprocess
 import time
 import os
+import sys
 
 # Directorios
 server_dir = "/workspaces/upgraded-octo-tribble/server"
@@ -14,10 +15,9 @@ playit_process = subprocess.Popen(
     stdout=subprocess.DEVNULL,
     stderr=subprocess.DEVNULL
 )
-
 time.sleep(5)
 
-# Iniciar el sv de mc
+# Iniciar el servidor de Minecraft con los flags de Aikar
 print("Iniciando servidor de Minecraft...")
 server_process = subprocess.Popen(
     [
@@ -29,7 +29,6 @@ server_process = subprocess.Popen(
         "-XX:MaxGCPauseMillis=200",
         "-XX:+UnlockExperimentalVMOptions",
         "-XX:+DisableExplicitGC",
-        "-XX:+AlwaysPreTouch",
         "-XX:G1NewSizePercent=40",
         "-XX:G1MaxNewSizePercent=50",
         "-XX:G1HeapRegionSize=16M",
@@ -42,10 +41,15 @@ server_process = subprocess.Popen(
         "-XX:SurvivorRatio=32",
         "-XX:+PerfDisableSharedMem",
         "-XX:MaxTenuringThreshold=1",
+        "-Dusing.aikars.flags=https://mcflags.emc.gs",
+        "-Daikars.new.flags=true",
         "-jar",
         "/workspaces/upgraded-octo-tribble/server/java-execute.jar"
+        "nogui"
     ],
-    cwd=server_dir
+    cwd=server_dir,  # Se usa el directorio del servidor definido arriba
+    stdout=sys.stdout,
+    stderr=sys.stderr
 )
 
 try:
