@@ -2,34 +2,57 @@ import subprocess
 import time
 import os
 
-# Directorios
+# 📂 Directorios
 server_dir = "/workspaces/upgraded-octo-tribble/server"
 playit_dir = "/workspaces/upgraded-octo-tribble/playit"
 
-# Iniciar playit
+# 🚀 Iniciar Playit
 print("Iniciando Playit...")
 playit_process = subprocess.Popen(
     [os.path.join(playit_dir, "playit")],
     cwd=playit_dir,
-    stdout=subprocess.DEVNULL,
+    stdout=subprocess.DEVNULL,  # Oculta logs de playit
     stderr=subprocess.DEVNULL
 )
 
+# Espera unos segundos para que Playit arranque
 time.sleep(5)
 
-# Iniciar el sv de mc
+# 🧠 Iniciar el servidor de Minecraft con Aikar's Flags optimizadas (15 GB RAM)
 print("Iniciando servidor de Minecraft...")
 server_process = subprocess.Popen(
     [
         "java",
         "-Xms15G",
         "-Xmx15G",
+        "-XX:+UseG1GC",
+        "-XX:+ParallelRefProcEnabled",
+        "-XX:MaxGCPauseMillis=200",
+        "-XX:+UnlockExperimentalVMOptions",
+        "-XX:+DisableExplicitGC",
+        "-XX:+AlwaysPreTouch",
+        "-XX:G1NewSizePercent=40",
+        "-XX:G1MaxNewSizePercent=50",
+        "-XX:G1HeapRegionSize=16M",
+        "-XX:G1ReservePercent=15",
+        "-XX:G1HeapWastePercent=5",
+        "-XX:G1MixedGCCountTarget=4",
+        "-XX:InitiatingHeapOccupancyPercent=20",
+        "-XX:G1MixedGCLiveThresholdPercent=90",
+        "-XX:G1RSetUpdatingPauseTimePercent=5",
+        "-XX:SurvivorRatio=32",
+        "-XX:+PerfDisableSharedMem",
+        "-XX:MaxTenuringThreshold=1",
+        "-Dusing.aikars.flags=https://mcflags.emc.gs",
+        "-Daikars.new.flags=true",
         "-jar",
-        "/workspaces/upgraded-octo-tribble/server/java-execute.jar"
+        "java-execute.jar",
+        "nogui"
     ],
     cwd=server_dir
 )
 
+# 🧹 Manejar cierre con Ctrl + C
 try:
     server_process.wait()
     playit_process.wait()
