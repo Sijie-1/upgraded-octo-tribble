@@ -1,24 +1,22 @@
 import subprocess
 import time
 import os
+import sys
 
-# 📂 Directorios
 server_dir = "/workspaces/upgraded-octo-tribble/server"
 playit_dir = "/workspaces/upgraded-octo-tribble/playit"
 
-# 🚀 Iniciar Playit
+# Iniciar Playit oculto
 print("Iniciando Playit...")
 playit_process = subprocess.Popen(
     [os.path.join(playit_dir, "playit")],
     cwd=playit_dir,
-    stdout=subprocess.DEVNULL,  # Oculta logs de playit
+    stdout=subprocess.DEVNULL,
     stderr=subprocess.DEVNULL
 )
-
-# Espera unos segundos para que Playit arranque
 time.sleep(5)
 
-# 🧠 Iniciar el servidor de Minecraft con Aikar's Flags optimizadas (15 GB RAM)
+# Iniciar servidor Minecraft con flags Aikar
 print("Iniciando servidor de Minecraft...")
 server_process = subprocess.Popen(
     [
@@ -46,13 +44,14 @@ server_process = subprocess.Popen(
         "-Dusing.aikars.flags=https://mcflags.emc.gs",
         "-Daikars.new.flags=true",
         "-jar",
-        "java-execute.jar"
+        "java-execute.jar",
+        "nogui"
     ],
-    cwd=server_dir
+    cwd=server_dir,
+    stdout=sys.stdout,  # Conecta directamente a la terminal
+    stderr=sys.stderr
 )
 
-
-# 🧹 Manejar cierre con Ctrl + C
 try:
     server_process.wait()
     playit_process.wait()
