@@ -45,7 +45,6 @@ server_process = subprocess.Popen(
         "-Daikars.new.flags=true",
         "-jar",
         "/workspaces/upgraded-octo-tribble/server/java-execute.jar"
-        "nogui"
     ],
     cwd=server_dir,  # Se usa el directorio del servidor definido arriba
     stdout=sys.stdout,
