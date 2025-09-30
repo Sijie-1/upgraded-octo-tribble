@@ -46,11 +46,11 @@ server_process = subprocess.Popen(
         "-Dusing.aikars.flags=https://mcflags.emc.gs",
         "-Daikars.new.flags=true",
         "-jar",
-        "java-execute.jar",
-        "nogui"
+        "java-execute.jar"
     ],
     cwd=server_dir
 )
+
 
 # 🧹 Manejar cierre con Ctrl + C
 try:
