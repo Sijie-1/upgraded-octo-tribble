@@ -1,12 +1,12 @@
 import subprocess
 import time
 import os
-import sys
 
+# Directorios
 server_dir = "/workspaces/upgraded-octo-tribble/server"
 playit_dir = "/workspaces/upgraded-octo-tribble/playit"
 
-# Iniciar Playit oculto
+# Iniciar playit
 print("Iniciando Playit...")
 playit_process = subprocess.Popen(
     [os.path.join(playit_dir, "playit")],
@@ -14,42 +14,20 @@ playit_process = subprocess.Popen(
     stdout=subprocess.DEVNULL,
     stderr=subprocess.DEVNULL
 )
+
 time.sleep(5)
 
-# Iniciar servidor Minecraft con flags Aikar
+# Iniciar el sv de mc
 print("Iniciando servidor de Minecraft...")
 server_process = subprocess.Popen(
     [
         "java",
         "-Xms15G",
         "-Xmx15G",
-        "-XX:+UseG1GC",
-        "-XX:+ParallelRefProcEnabled",
-        "-XX:MaxGCPauseMillis=200",
-        "-XX:+UnlockExperimentalVMOptions",
-        "-XX:+DisableExplicitGC",
-        "-XX:+AlwaysPreTouch",
-        "-XX:G1NewSizePercent=40",
-        "-XX:G1MaxNewSizePercent=50",
-        "-XX:G1HeapRegionSize=16M",
-        "-XX:G1ReservePercent=15",
-        "-XX:G1HeapWastePercent=5",
-        "-XX:G1MixedGCCountTarget=4",
-        "-XX:InitiatingHeapOccupancyPercent=20",
-        "-XX:G1MixedGCLiveThresholdPercent=90",
-        "-XX:G1RSetUpdatingPauseTimePercent=5",
-        "-XX:SurvivorRatio=32",
-        "-XX:+PerfDisableSharedMem",
-        "-XX:MaxTenuringThreshold=1",
-        "-Dusing.aikars.flags=https://mcflags.emc.gs",
-        "-Daikars.new.flags=true",
         "-jar",
-        "java-execute.jar",
-        "nogui"
+        "/workspaces/upgraded-octo-tribble/server/java-execute.jar"
     ],
-    cwd=server_dir,
-    stdout=sys.stdout,  # Conecta directamente a la terminal
-    stderr=sys.stderr
+    cwd=server_dir
 )
 
 try:
