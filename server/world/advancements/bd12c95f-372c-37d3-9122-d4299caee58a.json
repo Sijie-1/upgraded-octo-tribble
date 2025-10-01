@@ -15,6 +15,7 @@
       "minecraft:beach": "2025-09-28 19:22:53 +0000",
       "minecraft:river": "2025-09-28 19:29:21 +0000",
       "minecraft:stony_shore": "2025-09-28 21:16:22 +0000",
+      "minecraft:dripstone_caves": "2025-10-01 01:12:49 +0000",
       "minecraft:swamp": "2025-09-29 14:39:38 +0000",
       "minecraft:forest": "2025-09-28 19:22:12 +0000",
       "minecraft:ocean": "2025-09-28 19:27:20 +0000",
@@ -416,6 +417,7 @@
       "honey_bottle": "2025-09-29 15:26:20 +0000",
       "cooked_mutton": "2025-09-28 20:03:15 +0000",
       "cooked_beef": "2025-09-28 19:58:11 +0000",
+      "baked_potato": "2025-10-01 01:24:48 +0000",
       "apple": "2025-09-29 16:07:31 +0000",
       "bread": "2025-09-28 20:21:06 +0000",
       "rotten_flesh": "2025-09-28 19:37:57 +0000",
@@ -435,6 +437,10 @@
       "minecraft:skeleton": "2025-09-28 19:50:14 +0000",
       "minecraft:spider": "2025-09-28 20:34:53 +0000",
       "minecraft:creeper": "2025-09-28 21:39:57 +0000",
+      "minecraft:zombified_piglin": "2025-10-01 02:46:07 +0000",
+      "minecraft:witch": "2025-10-01 03:16:40 +0000",
+      "minecraft:cave_spider": "2025-10-01 01:40:06 +0000",
+      "minecraft:piglin": "2025-10-01 02:44:08 +0000",
       "minecraft:silverfish": "2025-09-29 15:45:40 +0000",
       "minecraft:zombie": "2025-09-28 19:32:06 +0000"
     },
@@ -1999,6 +2005,168 @@
   "minecraft:recipes/building_blocks/andesite_slab_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-09-29 15:52:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2025-10-01 02:14:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2025-10-01 01:38:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2025-10-01 01:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-10-01 01:09:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-10-01 01:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-10-01 01:09:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-10-01 03:08:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-10-01 01:09:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit": {
+    "criteria": {
+      "has_rabbit": "2025-10-01 02:53:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-10-01 02:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-10-01 01:20:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-10-01 03:28:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2025-10-01 01:33:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-10-01 03:13:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_smoking": {
+    "criteria": {
+      "has_rabbit": "2025-10-01 02:53:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2025-10-01 01:26:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-10-01 01:12:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
+    "criteria": {
+      "has_rabbit": "2025-10-01 02:53:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-10-01 03:28:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2025-10-01 02:14:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2025-10-01 01:38:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-10-01 03:13:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-10-01 02:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2025-10-01 02:14:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-10-01 03:08:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-10-01 03:27:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2025-10-01 01:38:16 +0000"
     },
     "done": true
   },
