@@ -442,8 +442,10 @@
       "minecraft:blaze": "2025-09-29 14:59:49 +0000",
       "minecraft:pillager": "2025-10-02 00:34:52 +0000",
       "minecraft:skeleton": "2025-09-28 19:50:14 +0000",
+      "minecraft:ghast": "2025-10-02 20:34:37 +0000",
       "minecraft:hoglin": "2025-10-01 22:39:19 +0000",
       "minecraft:vindicator": "2025-10-02 01:00:25 +0000",
+      "minecraft:magma_cube": "2025-10-02 20:39:05 +0000",
       "minecraft:spider": "2025-09-28 20:34:53 +0000",
       "minecraft:piglin_brute": "2025-10-01 22:44:11 +0000",
       "minecraft:creeper": "2025-09-28 21:39:57 +0000",
@@ -453,6 +455,7 @@
       "minecraft:cave_spider": "2025-10-01 01:40:06 +0000",
       "minecraft:piglin": "2025-10-01 02:44:08 +0000",
       "minecraft:silverfish": "2025-09-29 15:45:40 +0000",
+      "minecraft:enderman": "2025-10-02 20:42:33 +0000",
       "minecraft:vex": "2025-10-02 02:10:29 +0000",
       "minecraft:zombie": "2025-09-28 19:32:06 +0000"
     },
@@ -756,9 +759,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-09-29 16:03:15 +0000",
       "minecraft:nether_wastes": "2025-09-28 19:43:24 +0000",
-      "minecraft:soul_sand_valley": "2025-09-29 14:55:58 +0000"
+      "minecraft:soul_sand_valley": "2025-09-29 14:55:58 +0000",
+      "minecraft:basalt_deltas": "2025-10-02 20:37:26 +0000",
+      "minecraft:warped_forest": "2025-10-02 20:40:42 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
@@ -3034,9 +3039,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/fletching_table": {
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
     "criteria": {
-      "has_flint": "2025-10-02 19:14:27 +0000"
+      "has_netherite_upgrade_smithing_template": "2025-10-02 18:52:27 +0000"
     },
     "done": true
   },
@@ -3046,9 +3051,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+  "minecraft:recipes/decorations/fletching_table": {
     "criteria": {
-      "has_netherite_upgrade_smithing_template": "2025-10-02 18:52:27 +0000"
+      "has_flint": "2025-10-02 19:14:27 +0000"
     },
     "done": true
   },

@@ -21,6 +21,7 @@
       "minecraft:windswept_savanna": "2025-09-30 21:41:09 +0000",
       "minecraft:flower_forest": "2025-09-28 21:37:22 +0000",
       "minecraft:old_growth_birch_forest": "2025-10-02 00:15:45 +0000",
+      "minecraft:meadow": "2025-10-02 22:09:29 +0000",
       "minecraft:savanna": "2025-10-01 21:45:47 +0000",
       "minecraft:plains": "2025-09-28 19:45:09 +0000"
     },
@@ -1187,6 +1188,7 @@
       "minecraft:creeper": "2025-09-28 21:51:04 +0000",
       "minecraft:slime": "2025-09-30 21:35:10 +0000",
       "minecraft:evoker": "2025-10-02 01:49:06 +0000",
+      "minecraft:zombified_piglin": "2025-10-02 21:58:44 +0000",
       "minecraft:witch": "2025-09-29 15:22:49 +0000",
       "minecraft:cave_spider": "2025-09-30 19:47:26 +0000",
       "minecraft:zombie": "2025-09-28 20:28:23 +0000",
@@ -2855,6 +2857,18 @@
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2025-10-02 02:03:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_white_tulip": {
+    "criteria": {
+      "has_white_tulip": "2025-10-02 21:23:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-10-02 21:23:11 +0000"
     },
     "done": true
   },
