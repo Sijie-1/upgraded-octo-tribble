@@ -1,409 +1,558 @@
-[00:48:27] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.17.2
-[00:48:28] [main/WARN]: Warnings were found!
- - Mod 'Debugify' (debugify) 1.20.1+2.0 recommends any 3.x version of yet-another-config-lib, which is missing!
-	 - You should install any 3.x version of yet-another-config-lib for the optimal experience.
-[00:48:28] [main/INFO]: Loading 89 mods:
-	- architectury 9.2.14
-	- balm 7.3.36
-	   \-- kuma_api 20.1.12
-	- clumps 12.0.0.4
-	- debugify 1.20.1+2.0
-	- fabric-api 0.92.6+1.20.1
-	   |-- fabric-api-base 0.4.32+1802ada577
-	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
-	   |-- fabric-biome-api-v1 13.0.14+1802ada577
-	   |-- fabric-block-api-v1 1.0.12+1802ada577
-	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
-	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
-	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
-	   |-- fabric-command-api-v1 1.2.35+f71b366f77
-	   |-- fabric-command-api-v2 2.2.14+1802ada577
-	   |-- fabric-commands-v0 0.2.52+df3654b377
-	   |-- fabric-containers-v0 0.1.67+df3654b377
-	   |-- fabric-content-registries-v0 4.0.13+1802ada577
-	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
-	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
-	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
-	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
-	   |-- fabric-dimensions-v1 2.1.55+1802ada577
-	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
-	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
-	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
-	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
-	   |-- fabric-item-api-v1 2.1.29+1802ada577
-	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
-	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
-	   |-- fabric-keybindings-v0 0.2.36+df3654b377
-	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
-	   |-- fabric-loot-api-v2 1.2.3+1802ada577
-	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
-	   |-- fabric-message-api-v1 5.1.10+1802ada577
-	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
-	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
-	   |-- fabric-models-v0 0.4.3+9386d8a777
-	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
-	   |-- fabric-networking-v0 0.3.54+df3654b377
-	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
-	   |-- fabric-particles-v1 1.1.3+1802ada577
-	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
-	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
-	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
-	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
-	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
-	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
-	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
-	   |-- fabric-rendering-v0 1.1.50+df3654b377
-	   |-- fabric-rendering-v1 3.0.9+1802ada577
-	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
-	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
-	   |-- fabric-screen-api-v1 2.0.9+1802ada577
-	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
-	   |-- fabric-sound-api-v1 1.0.14+1802ada577
-	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
-	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
-	- fabric-language-kotlin 1.13.6+kotlin.2.2.20
-	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.20
-	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.20
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.20
-	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.20
-	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
-	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
-	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
-	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
-	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
-	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
-	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
-	- fabricloader 0.17.2
-	   \-- mixinextras 0.5.0
-	- ferritecore 6.0.1
-	- forgeconfigapiport 8.0.2
-	- headfix 1.2.2
-	- java 21
-	- krypton 0.2.3
-	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
-	- lithium 0.11.3
-	- minecraft 1.20.1
-	- modernfix 5.24.4+mc1.20.1
-	- netherportalfix 13.0.1
-	- servercore 1.5.2+1.20.1
-	   |-- fabric-permissions-api-v0 0.3.1
-	   |-- org_yaml_snakeyaml 2.2
-	   |-- placeholder-api 2.1.3+1.20.1
-	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
-	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
-	- skin_changer 0.6.6
-	- tpaplusplus 1.6.0-1.20.x-RELEASE-CANDIDATE-1
-	- whyamionfire 1.2.2
-	- yet_another_config_lib_v3 3.6.6+1.20.1-fabric
-	   |-- com_twelvemonkeys_common_common-image 3.12.0
-	   |-- com_twelvemonkeys_common_common-io 3.12.0
-	   |-- com_twelvemonkeys_common_common-lang 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
-	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
-	   |-- org_quiltmc_parsers_gson 0.2.1
-	   \-- org_quiltmc_parsers_json 0.2.1
-[00:48:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/upgraded-octo-tribble/server/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:48:28] [main/INFO]: Compatibility level set to JAVA_16
-[00:48:28] [main/INFO]: Compatibility level set to JAVA_17
-[00:48:29] [main/INFO]: Preloading Debugify
-[00:48:29] [main/INFO]: Loaded configuration file for Lithium: 131 options available, 3 override(s) found
-[00:48:29] [main/INFO]: Loaded configuration file for ModernFix 5.24.4+mc1.20.1: 70 options available, 0 override(s) found
-[00:48:29] [main/INFO]: Applying Nashorn fix
-[00:48:30] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
-[00:48:30] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
-[00:48:30] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
-[00:48:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[00:48:33] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[00:48:33] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[00:48:33] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[00:48:34] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[00:48:35] [main/INFO]: Vanilla bootstrap took 3992 milliseconds
-[00:48:35] [main/INFO]: Enabled 34 bug fixes: [MC-2025, MC-7569, MC-8187, MC-14923, MC-30391, MC-31819, MC-69216, MC-72151, MC-88371, MC-89146, MC-90084, MC-93018, MC-100991, MC-119417, MC-119754, MC-121706, MC-121903, MC-124117, MC-129909, MC-132878, MC-135971, MC-155509, MC-160095, MC-179072, MC-183990, MC-193343, MC-199467, MC-200418, MC-206922, MC-215530, MC-223153, MC-224729, MC-231743, MC-232869]
-[00:48:35] [main/INFO]: Successfully Debugify'd your game!
-[00:48:35] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
-[00:48:35] [main/INFO]: [ServerCore] Loaded V1.5.2+1.20.1!
-[00:48:35] [main/INFO]: INITIALIZING...
-[00:48:35] [main/INFO]: REGISTERING BACK COMMAND...
-[00:48:35] [main/INFO]: REGISTERING TPAACCEPT COMMAND...
-[00:48:35] [main/INFO]: REGISTERING TPACANCEL COMMAND...
-[00:48:35] [main/INFO]: REGISTERING TPA COMMAND...
-[00:48:35] [main/INFO]: REGISTERING TPADENY COMMAND...
-[00:48:35] [main/INFO]: REGISTERING TPAHERE COMMAND...
-[00:48:35] [main/INFO]: REGISTERING TPAPLUSPLUS COMMAND...
-[00:48:35] [main/INFO]: REGISTERING TPBLOCK COMMAND...
-[00:48:35] [main/INFO]: REGISTERING TPTOGGLE COMMAND...
-[00:48:35] [main/INFO]: REGISTERING TPUNBLOCK COMMAND...
-[00:48:35] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STARTED"...
-[00:48:35] [main/INFO]: REGISTERING "LifecycleEvent.SERVER_STOPPING"...
-[00:48:35] [main/INFO]: REGISTERING "LifecycleEvent.LIVING_DEATH"...
-[00:48:35] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_JOIN"...
-[00:48:35] [main/INFO]: REGISTERING "PlayerEvent.PLAYER_LEAVE"...
-[00:48:35] [main/INFO]: REGISTERING "RequestTimeoutEvent"...
-[00:48:35] [main/WARN]: USING EXPERIMENTAL NON BLOCKING TICK LOOP
-[00:48:35] [main/INFO]: INITIALIZING TICK LOOP WITH RATE OF 20...
-[00:48:35] [main/INFO]: ...INITIALIZATION COMPLETE
-[00:48:35] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
-[00:48:35] [main/INFO]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
-[00:48:35] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[00:48:36] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:48:36] [main/INFO]: Bypassed Mojang DFU
-[00:48:36] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
-[00:48:36] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
-[00:48:38] [main/INFO]: Loaded 7 recipes
-[00:48:38] [main/INFO]: Loaded 1271 advancements
-[00:48:38] [main/WARN]: Initial datapack load took 2.145 s
-[00:48:38] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.571 ms
-[00:48:38] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:48:38] [Server thread/INFO]: Loading properties
-[00:48:38] [Server thread/INFO]: Default game type: SURVIVAL
-[00:48:38] [Server thread/INFO]: Generating keypair
-[00:48:38] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:48:38] [Server thread/INFO]: Using epoll channel type
-[00:48:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:48:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:48:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:48:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:48:38] [Server thread/INFO]: Preparing level "world"
-[00:48:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:48:39] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[00:48:40] [Server thread/INFO]: Preparing spawn area: 0%
-[00:48:40] [Server thread/INFO]: Preparing spawn area: 0%
-[00:48:40] [Server thread/INFO]: Preparing spawn area: 0%
-[00:48:40] [Server thread/INFO]: Preparing spawn area: 0%
-[00:48:41] [Server thread/INFO]: Time elapsed: 2131 ms
-[00:48:41] [Server thread/INFO]: Done (2.568s)! For help, type "help"
-[00:48:41] [Server thread/WARN]: Dedicated server took 15.483 seconds to load
-[00:48:41] [Server thread/INFO]: Successfully loaded player data!
-[00:53:20] [Server thread/INFO]: _luniyuxx[/127.207.82.28:54807] logged in with entity id 81 at (572.8379561235192, 64.0, -248.10333937042736)
-[00:53:20] [Server thread/INFO]: _luniyuxx joined the game
-[00:53:20] [Server thread/INFO]: Player _luniyuxx just logged in with id bd12c95f-372c-37d3-9122-d4299caee58a
-[00:53:20] [ForkJoinPool-4-worker-1/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
-[00:53:20] [ForkJoinPool-4-worker-1/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
-[00:53:20] [ForkJoinPool-4-worker-1/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
-[00:58:46] [Server thread/INFO]: ItsMeYo[/127.143.176.42:33429] logged in with entity id 1282 at (575.2053239017409, 63.0, -276.365564336834)
-[00:58:46] [Server thread/INFO]: ItsMeYo joined the game
-[00:58:46] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
-[00:58:46] [ForkJoinPool-4-worker-2/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[00:58:46] [ForkJoinPool-4-worker-2/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
-[00:58:55] [Server thread/WARN]: ItsMeYo moved too quickly! -9.3912127484748,-0.875,-3.5188513908568098
-[01:00:01] [Server thread/INFO]: [Not Secure] <ItsMeYo> tque trabajador el josue
-[01:00:35] [Server thread/INFO]: [Not Secure] <_luniyuxx> su unico esfuerzo fue mandar a los aldeanos
-[01:01:09] [Server thread/INFO]: [Not Secure] <ItsMeYo> ele por eso imaginate ese se quedo todo un dia soloen el sv
-[01:01:21] [Server thread/INFO]: [Not Secure] <_luniyuxx> claro
-[01:01:41] [Server thread/INFO]: [Not Secure] <_luniyuxx> y quito mis librerias que gran persona
-[01:01:48] [Server thread/INFO]: [Not Secure] <_luniyuxx> a el le voy a mandar a conseguir de nuevo
-[01:02:02] [Server thread/INFO]: [Not Secure] <ItsMeYo> te puedo quitar un riñon
-[01:02:06] [Server thread/INFO]: [Not Secure] <_luniyuxx> no
-[01:18:28] [Server thread/INFO]: ItsMeYo was slain by Zombie
-[01:18:32] [Server thread/INFO]: [Not Secure] <_luniyuxx> xd
-[01:18:33] [Server thread/INFO]: [Not Secure] <ItsMeYo> t/back¿
-[01:18:47] [Server thread/INFO]: ItsMeYo was slain by Zombie
-[01:18:56] [Server thread/INFO]: [Not Secure] <ItsMeYo> maldito malinternet de mrd
-[01:21:06] [Server thread/WARN]: _luniyuxx moved too quickly! 7.034639535192241,-7.10324427949463,-0.9305928317232883
-[01:21:07] [Server thread/INFO]: [Not Secure] <ItsMeYo> oye ayudame
-[01:21:13] [Server thread/INFO]: [Not Secure] <_luniyuxx> en q
-[01:21:16] [Server thread/INFO]: [Not Secure] <ItsMeYo> ttpaw+aa
-[01:21:22] [Server thread/INFO]: [Not Secure] <ItsMeYo> y mi int de mrd+
-[01:22:19] [Server thread/INFO]: [Not Secure] <ItsMeYo> tbueno Dios lo bendiga
-[01:23:21] [Server thread/INFO]: [Not Secure] <_luniyuxx> chao hermosa
-[01:23:29] [Server thread/INFO]: [Not Secure] <ItsMeYo> yya topes
-[01:23:35] [Server thread/INFO]: [Not Secure] <_luniyuxx> chch
-[01:23:41] [Server thread/INFO]: [Not Secure] <_luniyuxx> solo me voy a buscar diamntes
-[01:23:43] [Server thread/INFO]: [Not Secure] <ItsMeYo> qwe
-[01:23:44] [Server thread/INFO]: [Not Secure] <ItsMeYo> ahh
-[01:23:46] [Server thread/INFO]: [Not Secure] <ItsMeYo> totpm
-[01:33:44] [Server thread/INFO]: _luniyuxx has made the advancement [Cover Me with Diamonds]
-[01:41:34] [Server thread/INFO]: [Not Secure] <ItsMeYo> ve vas a venir a tpa? ya me salgo
-[01:41:42] [Server thread/INFO]: [Not Secure] <_luniyuxx> salte nomas hermosa
-[01:41:47] [Server thread/INFO]: [Not Secure] <ItsMeYo> tyyaya
-[01:42:09] [Server thread/INFO]: ItsMeYo lost connection: Disconnected
-[01:42:09] [Server thread/INFO]: ItsMeYo left the game
-[01:42:09] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[01:48:35] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
-[01:48:35] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
-[01:49:51] [Server thread/INFO]: ItsMeYo[/127.143.176.42:53431] logged in with entity id 17951 at (562.3458130047552, 63.0, -280.30000001192093)
-[01:49:51] [Server thread/INFO]: ItsMeYo joined the game
-[01:49:51] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
-[01:49:51] [ForkJoinPool-4-worker-3/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[01:49:51] [ForkJoinPool-4-worker-3/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
-[02:10:02] [Server thread/INFO]: [Not Secure] <ItsMeYo> ve pone las tolbas aca
-[02:10:14] [Server thread/WARN]: ItsMeYo moved too quickly! -9.62685319263187,-0.8291870918577047,3.617751354726863
-[02:10:15] [Server thread/INFO]: [Not Secure] <_luniyuxx> eeeee
-[02:10:23] [Server thread/INFO]: [Not Secure] <ItsMeYo> bueno cocina el hierro
-[02:10:27] [Server thread/INFO]: [Not Secure] <ItsMeYo> tcon cubos de lava toma
-[02:10:44] [Server thread/INFO]: [Not Secure] <_luniyuxx> que toca hacere
-[02:10:56] [Server thread/INFO]: [Not Secure] <ItsMeYo> tpone las tolvas ya genera esa granja
-[02:11:04] [Server thread/INFO]: [Not Secure] <ItsMeYo> tsolo con un zombie
-[02:12:03] [Server thread/INFO]: ItsMeYo was slain by Iron Golem
-[02:12:07] [Server thread/INFO]: [Not Secure] <_luniyuxx> XD
-[02:12:48] [Server thread/INFO]: [Not Secure] <_luniyuxx> me alcanzo para 4 :v
-[02:13:02] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya nada ponelos eso y luego te vas a farmear mas
-[02:13:06] [Server thread/INFO]: [Not Secure] <ItsMeYo> aca
-[02:13:48] [Server thread/INFO]: [Not Secure] <ItsMeYo> ve con esto ya tenes
-[02:14:09] [Server thread/INFO]: [Not Secure] <ItsMeYo> pone las tolbas que miren donde los cofres
-[02:16:00] [Server thread/INFO]: [Not Secure] <_luniyuxx> me voy a quedar aqui farmeando hierro para las otras tolvas
-[02:16:06] [Server thread/INFO]: [Not Secure] <ItsMeYo> ok
-[02:16:09] [Server thread/INFO]: [Not Secure] <ItsMeYo> tpero
-[02:16:11] [Server thread/INFO]: [Not Secure] <_luniyuxx> hdp
-[02:16:11] [Server thread/INFO]: [Not Secure] <ItsMeYo> te van amatar
-[02:16:17] [Server thread/INFO]: [Not Secure] <_luniyuxx> se mueren solos
-[02:16:22] [Server thread/INFO]: [Not Secure] <ItsMeYo> los zombies
-[02:16:24] [Server thread/INFO]: [Not Secure] <ItsMeYo> y creepers
-[02:16:30] [Server thread/INFO]: [Not Secure] <_luniyuxx> ni se acercan
-[02:16:41] [Server thread/INFO]: [Not Secure] <ItsMeYo> bueno
-[02:16:51] [Server thread/INFO]: [Not Secure] <_luniyuxx> dios mio como genera esto
-[02:16:53] [Server thread/INFO]: [Not Secure] <_luniyuxx> 3 seguidos
-[02:16:56] [Server thread/INFO]: [Not Secure] <_luniyuxx> que cracks
-[02:16:57] [Server thread/INFO]: [Not Secure] <ItsMeYo> y solo es un zombie xd
-[02:18:06] [Server thread/INFO]: [Not Secure] <_luniyuxx> espera ya vengop
-[02:18:10] [Server thread/INFO]: [Not Secure] <ItsMeYo> okkk
-[02:20:34] [Server thread/INFO]: [Not Secure] <_luniyuxx> ya vine+
-[02:20:46] [Server thread/INFO]: [Not Secure] <ItsMeYo> tyay cuanto tienes de hierro
-[02:20:53] [Server thread/INFO]: [Not Secure] <_luniyuxx> 49
-[02:20:58] [Server thread/INFO]: [Not Secure] <ItsMeYo> sala verga
-[02:22:32] [Server thread/INFO]: [Not Secure] <_luniyuxx> ya estan las tolvas
-[02:22:38] [Server thread/INFO]: [Not Secure] <ItsMeYo> bien ahi
-[02:22:42] [Server thread/INFO]: [Not Secure] <ItsMeYo> tfalta un zombie nomas
-[02:22:49] [Server thread/INFO]: [Not Secure] <ItsMeYo> anda rompiendo todo esto ve
-[02:22:54] [Server thread/INFO]: [Not Secure] <ItsMeYo> tpa
-[02:22:57] [Server thread/INFO]: [Not Secure] <_luniyuxx> q cosa
-[02:23:00] [Server thread/INFO]: [Not Secure] <ItsMeYo> ttpa
-[02:23:18] [Server thread/INFO]: [Not Secure] <ItsMeYo> no te moveras
-[02:23:26] [Server thread/INFO]: [Not Secure] <ItsMeYo> todo estooo
-[02:23:49] [Server thread/INFO]: [Not Secure] <ItsMeYo> solo hasta aca mira
-[02:23:51] [Server thread/INFO]: [Not Secure] <_luniyuxx> no importa que se caiga
-[02:23:56] [Server thread/INFO]: [Not Secure] <ItsMeYo> tno
-[02:24:01] [Server thread/INFO]: [Not Secure] <ItsMeYo> igual son dupeados
-[02:24:04] [Server thread/INFO]: [Not Secure] <ItsMeYo> solo hasta aca veni
-[02:24:26] [Server thread/INFO]: [Not Secure] <_luniyuxx> yaya
-[02:35:27] [Server thread/INFO]: Named entity class_1642['Glande Martinez'/9473, l='ServerLevel[world]', x=515.51, y=87.48, z=-404.50] died: Glande Martinez hit the ground too hard
-[02:37:42] [Server thread/WARN]: ItsMeYo moved too quickly! -0.018767296987334703,-6.8751356021945895,7.6194079014769045
-[02:37:48] [Server thread/INFO]: [Not Secure] <_luniyuxx> tqm
-[02:37:52] [Server thread/INFO]: [Not Secure] <ItsMeYo> si
-[02:38:19] [Server thread/INFO]: [Not Secure] <ItsMeYo> oye del unico camino que hizo el josue antes fue el unico zombie q s emurio xd
-[02:38:32] [Server thread/INFO]: [Not Secure] <_luniyuxx> por gay
-[02:39:05] [Server thread/INFO]: [Not Secure] <ItsMeYo> mata a todos menos al zombie
-[02:42:05] [Server thread/INFO]: No return portal found
-[02:43:11] [Server thread/INFO]: ItsMeYo was doomed to fall by Phantom
-[02:43:18] [Server thread/INFO]: [Not Secure] <ItsMeYo> tNJOO
-[02:43:31] [Server thread/INFO]: [Not Secure] <_luniyuxx> chucha
-[02:43:45] [Server thread/INFO]: ItsMeYo was doomed to fall by Phantom
-[02:43:48] [Server thread/INFO]: [Not Secure] <_luniyuxx> xd
-[02:44:11] [Server thread/INFO]: [Not Secure] <ItsMeYo> tpa mata a ese mmvrg
-[02:44:23] [Server thread/INFO]: [Not Secure] <_luniyuxx> ptm me estaba dando en el nether
-[02:45:06] [Server thread/INFO]: ItsMeYo was doomed to fall by Phantom
-[02:45:24] [Server thread/INFO]: ItsMeYo was blown up by Creeper
-[02:45:41] [Server thread/INFO]: [Not Secure] <_luniyuxx> ACEPTA
-[02:46:23] [Server thread/INFO]: [Not Secure] <_luniyuxx> DONDE COÑO ESTAS XD
-[02:46:35] [Server thread/INFO]: [Not Secure] <ItsMeYo> tpa
-[02:47:58] [Server thread/INFO]: [Not Secure] <ItsMeYo> NOOOO COÑO MALDITO MOB DE MIERDA OJALA SE MUERO MALNACIDO HIJO DE PERRA SE MURIO EL ZOMBIE POR EL PUTO SOL LAPUTAMADRE TODO EST PERRO MOMENTO NO ME DEJO SALIR
-[02:48:21] [Server thread/INFO]: ItsMeYo fell from a high place
-[02:48:35] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
-[02:48:35] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
-[02:50:33] [Server thread/INFO]: [Not Secure] <_luniyuxx> que nomas perdiste
-[02:50:45] [Server thread/INFO]: [Not Secure] <ItsMeYo> perdi al zombien omas
-[02:50:49] [Server thread/INFO]: [Not Secure] <ItsMeYo> ese mmvrg intentaba subir
-[02:50:51] [Server thread/INFO]: [Not Secure] <ItsMeYo> me tiraba
-[02:50:53] [Server thread/INFO]: [Not Secure] <ItsMeYo> tintentaba subir
-[02:50:56] [Server thread/INFO]: [Not Secure] <ItsMeYo> me tiraba
-[02:50:58] [Server thread/INFO]: [Not Secure] <ItsMeYo> mama verga
-[02:51:00] [Server thread/INFO]: [Not Secure] <_luniyuxx> XD
-[02:51:49] [Server thread/INFO]: [Not Secure] <_luniyuxx> tienes montura
-[02:51:58] [Server thread/INFO]: [Not Secure] <ItsMeYo> no, mi caballo es el unico
-[02:53:42] [Server thread/INFO]: ItsMeYo lost connection: Timed out
-[02:53:42] [Server thread/INFO]: ItsMeYo left the game
-[02:53:42] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[02:54:09] [Server thread/INFO]: ItsMeYo[/127.147.220.128:33765] logged in with entity id 37177 at (563.5088259182887, 63.0, -278.52209427642214)
-[02:54:09] [Server thread/INFO]: ItsMeYo joined the game
-[02:54:09] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
-[02:54:09] [ForkJoinPool-4-worker-4/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[02:54:09] [ForkJoinPool-4-worker-4/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
-[02:54:17] [Server thread/INFO]: [Not Secure] <ItsMeYo> c me fue el int
-[02:54:27] [Server thread/INFO]: [Not Secure] <_luniyuxx> ya estaba llorando yo
-[03:00:19] [Server thread/INFO]: [Not Secure] <_luniyuxx> lag
-[03:00:24] [Server thread/INFO]: [Not Secure] <ItsMeYo> tff
-[03:00:39] [Server thread/INFO]: [Not Secure] <_luniyuxx> tu te sabes el crafto de la montura?
-[03:00:46] [Server thread/INFO]: [Not Secure] <_luniyuxx> aqui diucer que necesito un cristal del end
-[03:00:47] [Server thread/INFO]: [Not Secure] <ItsMeYo> no hay??
-[03:00:50] [Server thread/INFO]: [Not Secure] <ItsMeYo> XD
-[03:00:51] [Server thread/INFO]: [Not Secure] <_luniyuxx> nose
-[03:00:54] [Server thread/INFO]: [Not Secure] <ItsMeYo> pero si no hay crafteo
-[03:01:01] [Server thread/INFO]: [Not Secure] <_luniyuxx> serio
-[03:01:04] [Server thread/INFO]: [Not Secure] <_luniyuxx> putamadre
-[03:01:04] [Server thread/INFO]: [Not Secure] <ItsMeYo> tsi
-[03:01:06] [Server thread/INFO]: [Not Secure] <ItsMeYo> XDD
-[03:02:31] [Server thread/INFO]: [Not Secure] <ItsMeYo> acabe
-[03:02:32] [Server thread/INFO]: [Not Secure] <ItsMeYo> adios
-[03:02:33] [Server thread/INFO]: [Not Secure] <ItsMeYo> ttqm
-[03:02:34] [Server thread/INFO]: ItsMeYo lost connection: Disconnected
-[03:02:34] [Server thread/INFO]: ItsMeYo left the game
-[03:02:34] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[03:13:19] [Server thread/INFO]: _luniyuxx has made the advancement [What a Deal!]
-[03:33:26] [Server thread/INFO]: Villager class_1646['Villager'/46426, l='ServerLevel[world]', x=537.89, y=61.00, z=-277.09] died, message: 'Villager was slain by _luniyuxx'
-[03:33:30] [Server thread/INFO]: Villager class_1646['Villager'/46419, l='ServerLevel[world]', x=533.48, y=63.00, z=-273.74] died, message: 'Villager was slain by _luniyuxx'
-[03:33:38] [Server thread/INFO]: Villager class_1646['Villager'/46430, l='ServerLevel[world]', x=538.30, y=60.42, z=-271.93] died, message: 'Villager was slain by _luniyuxx'
-[03:33:47] [Server thread/INFO]: Villager class_1646['Villager'/46410, l='ServerLevel[world]', x=538.04, y=61.18, z=-275.28] died, message: 'Villager was slain by _luniyuxx'
-[03:33:49] [Server thread/INFO]: Villager class_1646['Villager'/46386, l='ServerLevel[world]', x=537.30, y=61.00, z=-276.58] died, message: 'Villager was slain by _luniyuxx'
-[03:33:50] [Server thread/INFO]: Villager class_1646['Villager'/46416, l='ServerLevel[world]', x=537.92, y=61.00, z=-276.69] died, message: 'Villager was slain by _luniyuxx'
-[03:33:51] [Server thread/INFO]: Villager class_1646['Villager'/46395, l='ServerLevel[world]', x=538.30, y=60.00, z=-277.01] died, message: 'Villager was slain by _luniyuxx'
-[03:33:52] [Server thread/INFO]: Villager class_1646['Villager'/46394, l='ServerLevel[world]', x=537.80, y=61.00, z=-276.72] died, message: 'Villager was slain by _luniyuxx'
-[03:33:53] [Server thread/INFO]: Villager class_1646['Villager'/46413, l='ServerLevel[world]', x=537.66, y=61.00, z=-276.21] died, message: 'Villager was slain by _luniyuxx'
-[03:33:54] [Server thread/INFO]: Villager class_1646['Villager'/46402, l='ServerLevel[world]', x=537.91, y=61.00, z=-275.48] died, message: 'Villager was slain by _luniyuxx'
-[03:33:57] [Server thread/INFO]: Villager class_1646['Villager'/46400, l='ServerLevel[world]', x=538.66, y=60.23, z=-275.86] died, message: 'Villager was slain by _luniyuxx'
-[03:34:03] [Server thread/INFO]: Villager class_1646['Villager'/46398, l='ServerLevel[world]', x=539.29, y=60.00, z=-276.92] died, message: 'Villager was slain by _luniyuxx'
-[03:34:05] [Server thread/INFO]: Villager class_1646['Villager'/46408, l='ServerLevel[world]', x=539.35, y=60.00, z=-273.14] died, message: 'Villager was slain by _luniyuxx'
-[03:34:06] [Server thread/INFO]: Villager class_1646['Villager'/46390, l='ServerLevel[world]', x=538.99, y=60.00, z=-274.50] died, message: 'Villager was slain by _luniyuxx'
-[03:34:08] [Server thread/INFO]: Villager class_1646['Villager'/46401, l='ServerLevel[world]', x=535.58, y=62.00, z=-275.20] died, message: 'Villager was slain by _luniyuxx'
-[03:34:10] [Server thread/INFO]: Villager class_1646['Villager'/46429, l='ServerLevel[world]', x=536.19, y=62.00, z=-273.05] died, message: 'Villager was slain by _luniyuxx'
-[03:35:00] [Server thread/INFO]: Villager class_1646['Villager'/46425, l='ServerLevel[world]', x=539.09, y=60.28, z=-275.88] died, message: 'Villager tried to swim in lava'
-[03:35:01] [Server thread/INFO]: Villager class_1646['Villager'/46433, l='ServerLevel[world]', x=538.97, y=60.41, z=-275.20] died, message: 'Villager tried to swim in lava'
-[03:35:01] [Server thread/INFO]: Villager class_1646['Villager'/46420, l='ServerLevel[world]', x=539.70, y=60.27, z=-275.85] died, message: 'Villager tried to swim in lava'
-[03:35:04] [Server thread/INFO]: Villager class_1646['Villager'/46397, l='ServerLevel[world]', x=537.22, y=62.02, z=-277.70] died, message: 'Villager burned to death'
-[03:35:06] [Server thread/INFO]: Villager class_1646['Villager'/46405, l='ServerLevel[world]', x=538.16, y=61.00, z=-277.22] died, message: 'Villager burned to death'
-[03:35:10] [Server thread/INFO]: Villager class_1646['Villager'/46434, l='ServerLevel[world]', x=539.45, y=60.00, z=-277.70] died, message: 'Villager tried to swim in lava'
-[03:35:10] [Server thread/INFO]: Villager class_1646['Villager'/46387, l='ServerLevel[world]', x=539.70, y=60.10, z=-277.09] died, message: 'Villager tried to swim in lava'
-[03:35:10] [Server thread/INFO]: Villager class_1646['Villager'/46412, l='ServerLevel[world]', x=539.70, y=60.13, z=-277.05] died, message: 'Villager tried to swim in lava'
-[03:35:11] [Server thread/INFO]: Villager class_1646['Villager'/46385, l='ServerLevel[world]', x=539.12, y=60.09, z=-277.12] died, message: 'Villager tried to swim in lava'
-[03:35:11] [Server thread/INFO]: Villager class_1646['Villager'/46407, l='ServerLevel[world]', x=538.94, y=60.26, z=-277.70] died, message: 'Villager tried to swim in lava'
-[03:35:11] [Server thread/INFO]: Villager class_1646['Villager'/46409, l='ServerLevel[world]', x=539.70, y=60.74, z=-277.70] died, message: 'Villager burned to death'
-[03:35:14] [Server thread/INFO]: Villager class_1646['Villager'/46428, l='ServerLevel[world]', x=537.28, y=62.17, z=-277.00] died, message: 'Villager burned to death'
-[03:35:14] [Server thread/INFO]: Villager class_1646['Villager'/46403, l='ServerLevel[world]', x=538.70, y=60.00, z=-276.98] died, message: 'Villager burned to death'
-[03:35:15] [Server thread/INFO]: Villager class_1646['Villager'/46439, l='ServerLevel[world]', x=539.70, y=60.00, z=-277.11] died, message: 'Villager tried to swim in lava'
-[03:35:15] [Server thread/INFO]: Villager class_1646['Villager'/46427, l='ServerLevel[world]', x=539.70, y=60.00, z=-277.24] died, message: 'Villager tried to swim in lava'
-[03:35:15] [Server thread/INFO]: Villager class_1646['Villager'/46391, l='ServerLevel[world]', x=538.74, y=60.00, z=-276.35] died, message: 'Villager tried to swim in lava'
-[03:35:15] [Server thread/INFO]: Villager class_1646['Villager'/46415, l='ServerLevel[world]', x=539.70, y=60.06, z=-275.78] died, message: 'Villager tried to swim in lava'
-[03:35:16] [Server thread/INFO]: Villager class_1646['Villager'/46418, l='ServerLevel[world]', x=539.08, y=60.21, z=-277.08] died, message: 'Villager tried to swim in lava'
-[03:35:16] [Server thread/INFO]: Villager class_1646['Villager'/46423, l='ServerLevel[world]', x=538.94, y=60.14, z=-277.07] died, message: 'Villager tried to swim in lava'
-[03:35:16] [Server thread/INFO]: Villager class_1646['Villager'/46411, l='ServerLevel[world]', x=539.00, y=60.45, z=-276.42] died, message: 'Villager tried to swim in lava'
-[03:35:17] [Server thread/INFO]: Villager class_1646['Villager'/46436, l='ServerLevel[world]', x=538.74, y=60.00, z=-277.03] died, message: 'Villager tried to swim in lava'
-[03:35:17] [Server thread/INFO]: Villager class_1646['Villager'/46396, l='ServerLevel[world]', x=539.70, y=60.04, z=-275.83] died, message: 'Villager tried to swim in lava'
-[03:35:17] [Server thread/INFO]: Villager class_1646['Villager'/46437, l='ServerLevel[world]', x=537.89, y=61.32, z=-276.94] died, message: 'Villager tried to swim in lava'
-[03:35:17] [Server thread/INFO]: Villager class_1646['Villager'/46389, l='ServerLevel[world]', x=539.70, y=60.90, z=-276.50] died, message: 'Villager tried to swim in lava'
-[03:35:18] [Server thread/INFO]: Villager class_1646['Villager'/46382, l='ServerLevel[world]', x=538.57, y=60.05, z=-276.99] died, message: 'Villager tried to swim in lava'
-[03:35:19] [Server thread/INFO]: Villager class_1646['Villager'/46388, l='ServerLevel[world]', x=538.53, y=60.66, z=-276.37] died, message: 'Villager tried to swim in lava'
-[03:35:19] [Server thread/INFO]: Villager class_1646['Villager'/46404, l='ServerLevel[world]', x=539.65, y=60.00, z=-274.73] died, message: 'Villager tried to swim in lava'
-[03:35:19] [Server thread/INFO]: Villager class_1646['Villager'/46414, l='ServerLevel[world]', x=538.97, y=60.69, z=-274.94] died, message: 'Villager burned to death'
-[03:35:20] [Server thread/INFO]: Villager class_1646['Villager'/46432, l='ServerLevel[world]', x=539.70, y=60.21, z=-275.54] died, message: 'Villager tried to swim in lava'
-[03:35:20] [Server thread/INFO]: Villager class_1646['Villager'/46424, l='ServerLevel[world]', x=539.17, y=60.11, z=-276.29] died, message: 'Villager tried to swim in lava'
-[03:35:20] [Server thread/INFO]: Villager class_1646['Villager'/46384, l='ServerLevel[world]', x=538.96, y=60.35, z=-277.62] died, message: 'Villager tried to swim in lava'
-[03:35:22] [Server thread/INFO]: Villager class_1646['Villager'/46406, l='ServerLevel[world]', x=538.30, y=60.00, z=-275.70] died, message: 'Villager burned to death'
-[03:35:24] [Server thread/INFO]: Villager class_1646['Villager'/46438, l='ServerLevel[world]', x=537.66, y=61.00, z=-276.21] died, message: 'Villager was slain by _luniyuxx'
-[03:35:25] [Server thread/INFO]: Villager class_1646['Villager'/46422, l='ServerLevel[world]', x=538.34, y=60.00, z=-277.01] died, message: 'Villager was slain by _luniyuxx'
-[03:35:27] [Server thread/INFO]: Villager class_1646['Villager'/46392, l='ServerLevel[world]', x=538.48, y=61.18, z=-277.27] died, message: 'Villager was slain by _luniyuxx'
-[03:35:30] [Server thread/INFO]: Villager class_1646['Villager'/46421, l='ServerLevel[world]', x=539.70, y=60.00, z=-273.28] died, message: 'Villager was slain by _luniyuxx'
-[03:36:09] [Server thread/INFO]: Villager class_1646['Villager'/46383, l='ServerLevel[world]', x=539.44, y=60.00, z=-271.53] died, message: 'Villager was slain by _luniyuxx'
-[03:36:13] [Server thread/INFO]: Villager class_1646['Villager'/46393, l='ServerLevel[world]', x=533.30, y=62.23, z=-273.01] died, message: 'Villager was slain by _luniyuxx'
-[03:37:08] [Server thread/INFO]: Villager class_1646['Villager'/46417, l='ServerLevel[world]', x=539.70, y=60.00, z=-277.64] died, message: 'Villager was slain by _luniyuxx'
-[03:38:59] [Server thread/INFO]: ItsMeYo[/127.147.220.128:48753] logged in with entity id 51369 at (551.5874179964575, 63.0, -300.2328993759117)
-[03:38:59] [Server thread/INFO]: ItsMeYo joined the game
-[03:38:59] [Server thread/INFO]: Player ItsMeYo just logged in with id 4b422bb3-5778-30ef-90d3-fa62ebf0458b
-[03:38:59] [ForkJoinPool-4-worker-5/INFO]: Loading local skin for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
-[03:39:00] [ForkJoinPool-4-worker-5/INFO]: File https://playerdb.co/api/player/minecraft/ItsMeYo downloaded
-[03:39:14] [Server thread/INFO]: _luniyuxx lost connection: Disconnected
-[03:39:14] [Server thread/INFO]: _luniyuxx left the game
-[03:43:14] [Server thread/INFO]: ItsMeYo lost connection: Disconnected
-[03:43:14] [Server thread/INFO]: ItsMeYo left the game
-[03:43:14] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
+[00:00:07] [Server thread/INFO]: [Not Secure] <_luniyuxx> vamos
+[00:01:16] [Server thread/INFO]: [Not Secure] <_luniyuxx> dice que eres un pendejo
+[00:01:29] [Server thread/INFO]: ItsMeYo has made the advancement [Take Aim]
+[00:01:34] [Server thread/INFO]: [Not Secure] <ItsMeYo> XD
+[00:01:59] [Server thread/INFO]: [Not Secure] <_luniyuxx> losas tienes
+[00:03:16] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya tengo tu caballo
+[00:03:23] [Server thread/INFO]: [Not Secure] <ItsMeYo> targgg
+[00:04:16] [Server thread/INFO]: [Not Secure] <ItsMeYo> pq mierda esta aca
+[00:04:19] [Server thread/INFO]: [Not Secure] <ItsMeYo> hdp
+[00:04:21] [Server thread/INFO]: [Not Secure] <ItsMeYo> tte voy a mataer
+[00:04:38] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya lo mate igual
+[00:04:54] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya lo mate igual
+[00:06:01] [Server thread/WARN]: _luniyuxx moved too quickly! 9.501543940325405,-0.691486201738762,3.257033845129115
+[00:07:14] [Server thread/INFO]: [Not Secure] <ItsMeYo> q mrdq
+[00:07:28] [Server thread/INFO]: [Not Secure] <ItsMeYo> a donde te vas vrg
+[00:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=630, y=60, z=168} class_2338{x=630, y=61, z=168}
+[00:07:34] [Server thread/INFO]: [Not Secure] <_luniyuxx> a buscar camino
+[00:07:38] [Server thread/INFO]: [Not Secure] <ItsMeYo> tXD
+[00:07:49] [Server thread/INFO]: [Not Secure] <_luniyuxx> nimood que llevemos al aldeano asi
+[00:07:58] [Server thread/INFO]: [Not Secure] <ItsMeYo> pasen cord de la granja
+[00:08:08] [Server thread/INFO]: [Not Secure] <_luniyuxx> no tiene
+[00:08:14] [Server thread/INFO]: [Not Secure] <ItsMeYo> chch
+[00:08:18] [Server thread/INFO]: [Not Secure] <ItsMeYo> bueno yo le iba a ver mas rapido
+[00:08:20] [Server thread/INFO]: [Not Secure] <ItsMeYo> tpero bue
+[00:08:29] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
+[00:08:29] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
+[00:09:32] [Server thread/INFO]: xXxJosue_A was shot by Skeleton
+[00:09:34] [Server thread/INFO]: [Not Secure] <ItsMeYo> XD
+[00:09:52] [Server thread/INFO]: [Not Secure] <ItsMeYo> van a hacer granja de mobs
+[00:09:58] [Server thread/INFO]: xXxJosue_A was shot by Skeleton
+[00:10:07] [Server thread/INFO]: [Not Secure] <_luniyuxx> que le mandes tp
+[00:10:18] [Server thread/INFO]: xXxJosue_A was shot by Skeleton
+[00:10:24] [Server thread/INFO]: [Not Secure] <ItsMeYo> si ala ya sabia es que lo sabia acepta
+[00:10:30] [Server thread/INFO]: [Not Secure] <_luniyuxx> ya llegue a la granja
+[00:10:35] [Server thread/INFO]: [Not Secure] <_luniyuxx> pero el josue que se va a otro lado
+[00:10:44] [Server thread/INFO]: [Not Secure] <ItsMeYo> tve josue donde estas
+[00:10:47] [Server thread/INFO]: [Not Secure] <ItsMeYo> todo muerto aca
+[00:11:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=941, y=72, z=-78} class_2338{x=941, y=71, z=-79}
+[00:12:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=953, y=71, z=-89} class_2338{x=952, y=71, z=-89}
+[00:12:43] [Server thread/INFO]: [Not Secure] <_luniyuxx> chen tp
+[00:12:55] [Server thread/INFO]: [Not Secure] <ItsMeYo> testoy haciendo algo de suma importancia aguanta
+[00:13:35] [Server thread/INFO]: [Not Secure] <_luniyuxx> tenemos que volver al agua
+[00:13:39] [Server thread/INFO]: [Not Secure] <_luniyuxx> si hay camino ya vi
+[00:14:16] [Server thread/WARN]: Boat (vehicle of _luniyuxx) moved wrongly! 0.25542879324905243
+[00:14:30] [Server thread/INFO]: [Not Secure] <ItsMeYo> CHCH
+[00:14:44] [Server thread/INFO]: [Not Secure] <_luniyuxx> ese josue necio
+[00:14:44] [Server thread/INFO]: [Not Secure] <ItsMeYo> q mrd
+[00:14:49] [Server thread/INFO]: [Not Secure] <_luniyuxx> vino por aca
+[00:14:51] [Server thread/INFO]: [Not Secure] <ItsMeYo> que tanto le pusieron a pasear al aldeano o que
+[00:15:00] [Server thread/INFO]: [Not Secure] <ItsMeYo> queria dar un paseo
+[00:17:04] [Server thread/INFO]: [Not Secure] <ItsMeYo> bien lento
+[00:18:57] [Server thread/INFO]: _luniyuxx lost connection: Disconnected
+[00:18:57] [Server thread/INFO]: _luniyuxx left the game
+[00:20:09] [Server thread/WARN]: ItsMeYo moved too quickly! 0.0,10.465000184059107,0.0
+[00:22:40] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.28434226199800605
+[00:27:58] [Server thread/INFO]: xXxJosue_A was shot by Pillager
+[00:32:34] [Server thread/INFO]: xXxJosue_A was doomed to fall by Pillager
+[00:33:49] [Server thread/WARN]: ItsMeYo moved too quickly! -7.779567189947443,-0.04268627838472128,6.554000826117999
+[00:33:51] [Server thread/INFO]: _luniyuxx[/127.207.82.28:40551] logged in with entity id 86907 at (1413.6478192712477, 62.17326431870461, -173.8101160806909)
+[00:33:51] [Server thread/INFO]: _luniyuxx joined the game
+[00:33:51] [Server thread/WARN]: Skipped emitting ENTITY_MOUNT game event for entity class_1690['Boat'/86908, l='ServerLevel[world]', x=1413.65, y=62.52, z=-173.81] as it would cause deadlock
+[00:33:51] [Server thread/INFO]: Player _luniyuxx just logged in with id bd12c95f-372c-37d3-9122-d4299caee58a
+[00:33:51] [ForkJoinPool-4-worker-14/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
+[00:33:51] [ForkJoinPool-4-worker-14/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
+[00:33:51] [ForkJoinPool-4-worker-14/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
+[00:35:21] [Server thread/INFO]: xXxJosue_A was shot by Pillager
+[00:36:27] [Server thread/INFO]: xXxJosue_A has made the advancement [Voluntary Exile]
+[00:36:29] [Server thread/INFO]: ItsMeYo was slain by Iron Golem
+[00:37:12] [Server thread/INFO]: _luniyuxx has made the advancement [Ol' Betsy]
+[00:37:12] [Server thread/INFO]: _luniyuxx has made the advancement [Take Aim]
+[00:37:35] [Server thread/INFO]: ItsMeYo has made the advancement [Ol' Betsy]
+[00:38:04] [Server thread/INFO]: _luniyuxx was slain by Iron Golem
+[00:38:50] [Server thread/INFO]: _luniyuxx lost connection: Disconnected
+[00:38:50] [Server thread/INFO]: _luniyuxx left the game
+[00:39:10] [Server thread/INFO]: xXxJosue_A was doomed to fall by Pillager
+[00:40:19] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[00:40:19] [Server thread/INFO]: xXxJosue_A left the game
+[00:40:19] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[00:40:24] [Server thread/INFO]: _luniyuxx[/127.207.82.28:52131] logged in with entity id 90231 at (704.5212019742928, 104.0, -1206.26699408999)
+[00:40:24] [Server thread/INFO]: _luniyuxx joined the game
+[00:40:24] [Server thread/INFO]: Player _luniyuxx just logged in with id bd12c95f-372c-37d3-9122-d4299caee58a
+[00:40:24] [ForkJoinPool-4-worker-15/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
+[00:40:24] [ForkJoinPool-4-worker-15/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
+[00:40:24] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:57735] logged in with entity id 90232 at (695.6788938160735, 99.0, -1192.703952452646)
+[00:40:24] [Server thread/INFO]: xXxJosue_A joined the game
+[00:40:24] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[00:40:24] [ForkJoinPool-4-worker-16/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[00:40:24] [ForkJoinPool-4-worker-15/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/_luniyuxx
+[00:40:24] [ForkJoinPool-4-worker-16/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[00:40:28] [Server thread/INFO]: ItsMeYo has made the advancement [Who's the Pillager Now?]
+[00:41:32] [Server thread/INFO]: ItsMeYo drowned
+[00:47:25] [Server thread/WARN]: Boat (vehicle of xXxJosue_A) moved wrongly! 0.295239301234858
+[00:47:25] [Server thread/WARN]: Boat (vehicle of xXxJosue_A) moved wrongly! 0.29563408683958414
+[00:49:59] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.3743439204990864
+[00:49:59] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.4389665092614905
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.5311387268559429
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.6140937204934289
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.6930499668105767
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.7684897808433107
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.8408741371206361
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.9106326369176259
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 0.9781538254603674
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 1.0
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 1.0
+[00:50:00] [Server thread/WARN]: Boat (vehicle of ItsMeYo) moved wrongly! 1.0
+[00:53:16] [Server thread/INFO]: [Not Secure] <ItsMeYo> yo me tome una foto con el
+[00:54:21] [Server thread/INFO]: ItsMeYo was slain by Vindicator
+[00:54:28] [Server thread/INFO]: ItsMeYo was slain by Vindicator
+[00:54:35] [Server thread/INFO]: ItsMeYo was shot by Pillager
+[00:54:42] [Server thread/INFO]: ItsMeYo was slain by Vindicator
+[00:54:48] [Server thread/INFO]: ItsMeYo was shot by Pillager
+[00:55:11] [Server thread/WARN]: _luniyuxx moved too quickly! -0.03557416723720053,-12.487512062367102,0.0
+[00:58:31] [Server thread/INFO]: xXxJosue_A has completed the challenge [Hero of the Village]
+[00:58:31] [Server thread/INFO]: _luniyuxx has completed the challenge [Hero of the Village]
+[00:58:37] [Server thread/INFO]: ItsMeYo was shot by Pillager
+[00:58:46] [Server thread/INFO]: xXxJosue_A was doomed to fall by Pillager
+[00:58:48] [Server thread/INFO]: ItsMeYo was slain by Vex
+[00:59:36] [Server thread/INFO]: ItsMeYo fell from a high place
+[01:00:00] [Server thread/INFO]: xXxJosue_A has reached the goal [Postmortal]
+[01:00:01] [Server thread/INFO]: ItsMeYo was slain by xXxJosue_A
+[01:00:25] [Server thread/INFO]: _luniyuxx has made the advancement [Voluntary Exile]
+[01:03:20] [Server thread/INFO]: ItsMeYo has completed the challenge [Hero of the Village]
+[01:03:27] [Server thread/INFO]: ItsMeYo has made the advancement [Voluntary Exile]
+[01:03:48] [Server thread/INFO]: _luniyuxx was slain by Vex
+[01:03:50] [Server thread/INFO]: xXxJosue_A has made the advancement [Cover Me with Diamonds]
+[01:03:55] [Server thread/INFO]: ItsMeYo has reached the goal [Postmortal]
+[01:04:07] [Server thread/INFO]: xXxJosue_A was slain by Vex
+[01:08:29] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
+[01:08:29] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
+[01:08:57] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:08:57] [Server thread/INFO]: xXxJosue_A left the game
+[01:08:57] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:09:08] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:58863] logged in with entity id 103281 at (1418.756217879598, 219.0, -175.32752554123954)
+[01:09:08] [Server thread/INFO]: xXxJosue_A joined the game
+[01:09:08] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:09:08] [ForkJoinPool-4-worker-17/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:09:09] [ForkJoinPool-4-worker-17/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:09:38] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:09:38] [Server thread/INFO]: xXxJosue_A left the game
+[01:09:38] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:09:46] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:44319] logged in with entity id 103299 at (1418.756217879598, 219.0, -175.32752554123954)
+[01:09:46] [Server thread/INFO]: xXxJosue_A joined the game
+[01:09:46] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:09:46] [ForkJoinPool-4-worker-17/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:09:46] [ForkJoinPool-4-worker-17/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:13:04] [Server thread/INFO]: _luniyuxx fell from a high place
+[01:16:39] [Server thread/INFO]: [Not Secure] <ItsMeYo> 704 ~ -1200
+[01:18:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1101, y=71, z=-631} class_2338{x=1102, y=69, z=-631}
+[01:18:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1101, y=71, z=-632} class_2338{x=1102, y=69, z=-631}
+[01:27:53] [Server thread/WARN]: Boat (vehicle of _luniyuxx) moved wrongly! 0.2903457721100722
+[01:27:53] [Server thread/WARN]: Boat (vehicle of _luniyuxx) moved wrongly! 0.2903457721100722
+[01:27:53] [Server thread/WARN]: Boat (vehicle of _luniyuxx) moved wrongly! 0.2903457721100722
+[01:28:54] [Server thread/INFO]: [Not Secure] <xXxJosue_A> hdp
+[01:28:58] [Server thread/INFO]: xXxJosue_A was slain by Vex
+[01:29:03] [Server thread/INFO]: [Not Secure] <xXxJosue_A> nooooooo
+[01:33:50] [Server thread/INFO]: ItsMeYo was slain by Ravager
+[01:34:02] [Server thread/INFO]: ItsMeYo was killed by Evoker using magic
+[01:34:11] [Server thread/INFO]: ItsMeYo was slain by Ravager
+[01:35:47] [Server thread/INFO]: _luniyuxx has reached the goal [Postmortal]
+[01:35:51] [Server thread/INFO]: _luniyuxx was doomed to fall by Ravager
+[01:37:35] [Server thread/INFO]: _luniyuxx fell from a high place
+[01:38:22] [Server thread/INFO]: ItsMeYo was doomed to fall by Ravager
+[01:39:42] [Server thread/INFO]: xXxJosue_A was slain by Ravager
+[01:41:19] [Server thread/INFO]: _luniyuxx fell from a high place
+[01:42:33] [Server thread/INFO]: ItsMeYo was slain by _luniyuxx
+[01:48:15] [Server thread/INFO]: [Not Secure] <ItsMeYo> hijo de perra
+[01:48:20] [Server thread/INFO]: _luniyuxx was slain by Vex
+[01:48:23] [Server thread/INFO]: [Not Secure] <ItsMeYo> XD
+[01:48:24] [Server thread/WARN]: xXxJosue_A moved too quickly! -0.3024586492902017,-15.476824662033351,0.14709950920084225
+[01:50:03] [Server thread/INFO]: [Not Secure] <_luniyuxx> chen tienes mi espada
+[01:50:11] [Server thread/INFO]: [Not Secure] <ItsMeYo> si muerto me llevo las cosas
+[01:51:04] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:51:04] [Server thread/INFO]: xXxJosue_A left the game
+[01:51:04] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:51:15] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:35467] logged in with entity id 120233 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:51:15] [Server thread/INFO]: xXxJosue_A joined the game
+[01:51:15] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:51:15] [ForkJoinPool-4-worker-18/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:51:15] [ForkJoinPool-4-worker-18/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:51:45] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:51:45] [Server thread/INFO]: xXxJosue_A left the game
+[01:51:45] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:51:52] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:59937] logged in with entity id 120323 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:51:52] [Server thread/INFO]: xXxJosue_A joined the game
+[01:51:52] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:51:52] [ForkJoinPool-4-worker-18/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:51:52] [ForkJoinPool-4-worker-18/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:52:15] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[01:52:15] [Server thread/INFO]: xXxJosue_A left the game
+[01:52:15] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:52:20] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:48023] logged in with entity id 120442 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:52:20] [Server thread/INFO]: xXxJosue_A joined the game
+[01:52:20] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:52:20] [ForkJoinPool-4-worker-18/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:52:20] [ForkJoinPool-4-worker-18/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:52:46] [Server thread/INFO]: [Not Secure] <_luniyuxx> que traigas un portal dice lema
+[01:52:50] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:52:50] [Server thread/INFO]: xXxJosue_A left the game
+[01:52:50] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:52:57] [Server thread/INFO]: [Not Secure] <ItsMeYo> obsidiana no sera
+[01:53:00] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:37569] logged in with entity id 120586 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:53:00] [Server thread/INFO]: xXxJosue_A joined the game
+[01:53:00] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:53:00] [ForkJoinPool-4-worker-18/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:53:01] [ForkJoinPool-4-worker-18/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:53:06] [Server thread/INFO]: [Not Secure] <_luniyuxx> si por eso para un portal
+[01:53:11] [Server thread/INFO]: [Not Secure] <ItsMeYo> yaya
+[01:53:12] [Server thread/INFO]: [Not Secure] <_luniyuxx> ve estas en la base
+[01:53:15] [Server thread/INFO]: [Not Secure] <ItsMeYo> si
+[01:53:31] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:53:31] [Server thread/INFO]: xXxJosue_A left the game
+[01:53:31] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:53:38] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:48591] logged in with entity id 120686 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:53:38] [Server thread/INFO]: xXxJosue_A joined the game
+[01:53:38] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:53:38] [ForkJoinPool-4-worker-18/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:53:38] [ForkJoinPool-4-worker-18/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:53:54] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[01:53:54] [Server thread/INFO]: xXxJosue_A left the game
+[01:53:54] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:53:57] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:35463] logged in with entity id 120811 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:53:57] [Server thread/INFO]: xXxJosue_A joined the game
+[01:53:57] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:53:57] [ForkJoinPool-4-worker-18/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:53:57] [ForkJoinPool-4-worker-18/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:54:27] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:54:27] [Server thread/INFO]: xXxJosue_A left the game
+[01:54:27] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:54:37] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:45731] logged in with entity id 121049 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:54:37] [Server thread/INFO]: xXxJosue_A joined the game
+[01:54:37] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:54:37] [ForkJoinPool-4-worker-18/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:54:37] [ForkJoinPool-4-worker-18/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:54:59] [Server thread/INFO]: [Not Secure] <xXxJosue_A> c
+[01:55:00] [Server thread/INFO]: [Not Secure] <ItsMeYo> ve josue
+[01:55:07] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:55:07] [Server thread/INFO]: xXxJosue_A left the game
+[01:55:07] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:55:11] [Server thread/INFO]: [Not Secure] <ItsMeYo> chuta
+[01:56:18] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:56955] logged in with entity id 121539 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:56:18] [Server thread/INFO]: xXxJosue_A joined the game
+[01:56:18] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:56:18] [ForkJoinPool-4-worker-19/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:56:18] [ForkJoinPool-4-worker-19/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:56:33] [Server thread/INFO]: [Not Secure] <xXxJosue_A> xd
+[01:56:48] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[01:56:48] [Server thread/INFO]: xXxJosue_A left the game
+[01:56:48] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:56:50] [Server thread/INFO]: _luniyuxx has made the advancement [A Seedy Place]
+[01:57:24] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:59943] logged in with entity id 121831 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:57:24] [Server thread/INFO]: xXxJosue_A joined the game
+[01:57:24] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:57:24] [ForkJoinPool-4-worker-20/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:57:24] [ForkJoinPool-4-worker-20/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:57:47] [Server thread/INFO]: [Not Secure] <ItsMeYo> toca matar al wither
+[01:57:50] [Server thread/INFO]: [Not Secure] <xXxJosue_A> htbtfbtrb
+[01:57:52] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[01:57:52] [Server thread/INFO]: xXxJosue_A left the game
+[01:57:52] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:57:55] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:55123] logged in with entity id 122032 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:57:55] [Server thread/INFO]: xXxJosue_A joined the game
+[01:57:55] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:57:55] [ForkJoinPool-4-worker-20/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:57:55] [ForkJoinPool-4-worker-20/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:58:07] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[01:58:07] [Server thread/INFO]: xXxJosue_A left the game
+[01:58:07] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:58:14] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:50107] logged in with entity id 122093 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:58:14] [Server thread/INFO]: xXxJosue_A joined the game
+[01:58:14] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:58:14] [ForkJoinPool-4-worker-20/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:58:14] [ForkJoinPool-4-worker-20/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:58:21] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[01:58:21] [Server thread/INFO]: xXxJosue_A left the game
+[01:58:21] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:58:25] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:40695] logged in with entity id 122135 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:58:25] [Server thread/INFO]: xXxJosue_A joined the game
+[01:58:25] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:58:25] [ForkJoinPool-4-worker-20/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:58:25] [ForkJoinPool-4-worker-20/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:58:32] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[01:58:32] [Server thread/INFO]: xXxJosue_A left the game
+[01:58:32] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:58:38] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:35045] logged in with entity id 122179 at (1419.699999988079, 191.0, -175.5091553053228)
+[01:58:38] [Server thread/INFO]: xXxJosue_A joined the game
+[01:58:38] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[01:58:38] [ForkJoinPool-4-worker-20/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[01:58:38] [ForkJoinPool-4-worker-20/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[01:59:48] [Server thread/INFO]: [Not Secure] <ItsMeYo> tnoo
+[01:59:50] [Server thread/INFO]: [Not Secure] <ItsMeYo> tquedate
+[01:59:55] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya tellevo el portal
+[01:59:56] [Server thread/INFO]: [Not Secure] <xXxJosue_A> el jordan esta aca
+[01:59:59] [Server thread/INFO]: [Not Secure] <ItsMeYo> tah
+[02:00:11] [Server thread/INFO]: [Not Secure] <xXxJosue_A> que haces{{
+[02:00:16] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ni bicon tenemos
+[02:00:17] [Server thread/INFO]: [Not Secure] <ItsMeYo> un faro pues un faro
+[02:00:23] [Server thread/INFO]: [Not Secure] <ItsMeYo> da igual ahi lo ponemo
+[02:00:28] [Server thread/INFO]: [Not Secure] <ItsMeYo> ttoma el portal
+[02:00:43] [Server thread/INFO]: xXxJosue_A has made the advancement [Ice Bucket Challenge]
+[02:02:13] [Server thread/INFO]: [Not Secure] <xXxJosue_A> obsidiana
+[02:02:19] [Server thread/INFO]: [Not Secure] <ItsMeYo> ttoma
+[02:02:21] [Server thread/INFO]: [Not Secure] <ItsMeYo> toma
+[02:02:23] [Server thread/INFO]: [Not Secure] <ItsMeYo> ttoma4
+[02:02:29] [Server thread/INFO]: [Not Secure] <xXxJosue_A> grax{
+[02:02:44] [Server thread/INFO]: [Not Secure] <ItsMeYo> tve te sobro papas
+[02:03:00] [Server thread/INFO]: xXxJosue_A was doomed to fall by _luniyuxx
+[02:03:03] [Server thread/INFO]: [Not Secure] <ItsMeYo> XD
+[02:08:12] [Server thread/INFO]: [Not Secure] <xXxJosue_A> pasa cords del portal del nether
+[02:08:29] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
+[02:08:29] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
+[02:09:33] [Server thread/INFO]: No return portal found
+[02:09:43] [Server thread/INFO]: [Not Secure] <xXxJosue_A> cheeeeen
+[02:09:45] [Server thread/INFO]: [Not Secure] <ItsMeYo> quee
+[02:09:50] [Server thread/INFO]: [Not Secure] <xXxJosue_A> pasa cords del portal
+[02:10:04] [Server thread/INFO]: [Not Secure] <ItsMeYo> en el overwold o en el nether
+[02:10:11] [Server thread/INFO]: [Not Secure] <xXxJosue_A> nether
+[02:10:31] [Server thread/INFO]: No return portal found
+[02:10:37] [Server thread/INFO]: [Not Secure] <ItsMeYo> t75 -35
+[02:10:50] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya lo vi
+[02:13:30] [Server thread/INFO]: [Not Secure] <xXxJosue_A> che n
+[02:13:33] [Server thread/INFO]: [Not Secure] <ItsMeYo> tquye}4
+[02:13:34] [Server thread/INFO]: [Not Secure] <xXxJosue_A> tienes arco{
+[02:13:39] [Server thread/INFO]: [Not Secure] <xXxJosue_A> entra al portal
+[02:13:45] [Server thread/INFO]: [Not Secure] <xXxJosue_A> mata alñ gast{
+[02:13:48] [Server thread/INFO]: [Not Secure] <ItsMeYo> tno tengo arco
+[02:13:55] [Server thread/INFO]: [Not Secure] <xXxJosue_A> estoy lit alfrente del portakl
+[02:14:05] [Server thread/INFO]: [Not Secure] <ItsMeYo> pero no tengo arco
+[02:14:23] [Server thread/WARN]: _luniyuxx moved too quickly! -0.0049481073951938015,10.465000184059164,0.018965131442598704
+[02:14:34] [Server thread/WARN]: xXxJosue_A was kicked for floating too long!
+[02:14:34] [Server thread/INFO]: xXxJosue_A lost connection: Flying is not enabled on this server
+[02:14:34] [Server thread/INFO]: xXxJosue_A left the game
+[02:14:34] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:14:39] [Server thread/INFO]: [Not Secure] <ItsMeYo> dnde estas
+[02:14:41] [Server thread/INFO]: [Not Secure] <ItsMeYo> bueno
+[02:14:42] [Server thread/INFO]: [Not Secure] <ItsMeYo> buena
+[02:14:47] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:38161] logged in with entity id 130565 at (135.704194362982, 53.0, -19.66839808003577)
+[02:14:47] [Server thread/INFO]: xXxJosue_A joined the game
+[02:14:47] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:14:47] [ForkJoinPool-4-worker-21/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:14:47] [ForkJoinPool-4-worker-21/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:14:54] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:14:54] [Server thread/INFO]: xXxJosue_A left the game
+[02:14:54] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:15:36] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:33115] logged in with entity id 130949 at (135.704194362982, 53.0, -19.66839808003577)
+[02:15:36] [Server thread/INFO]: xXxJosue_A joined the game
+[02:15:36] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:15:36] [ForkJoinPool-4-worker-21/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:15:37] [ForkJoinPool-4-worker-21/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:15:42] [Server thread/INFO]: xXxJosue_A tried to swim in lava to escape Skeleton
+[02:15:43] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:15:43] [Server thread/INFO]: xXxJosue_A left the game
+[02:15:43] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:15:47] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:38659] logged in with entity id 131090 at (135.704194362982, 27.91666519183367, -19.66839808003577)
+[02:15:47] [Server thread/INFO]: xXxJosue_A joined the game
+[02:15:47] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:15:47] [ForkJoinPool-4-worker-21/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:15:47] [ForkJoinPool-4-worker-21/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:15:51] [Server thread/INFO]: [Not Secure] <ItsMeYo> xD
+[02:15:57] [Server thread/INFO]: [Not Secure] <ItsMeYo> ya hago el puente yo
+[02:16:14] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:16:14] [Server thread/INFO]: xXxJosue_A left the game
+[02:16:14] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:16:28] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:49971] logged in with entity id 131799 at (564.5, 63.0, -283.5)
+[02:16:28] [Server thread/INFO]: xXxJosue_A joined the game
+[02:16:28] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:16:28] [ForkJoinPool-4-worker-21/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:16:28] [ForkJoinPool-4-worker-21/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:16:34] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:16:34] [Server thread/INFO]: xXxJosue_A left the game
+[02:16:34] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:16:58] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:49139] logged in with entity id 132308 at (564.5, 63.0, -283.5)
+[02:16:58] [Server thread/INFO]: xXxJosue_A joined the game
+[02:16:58] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:16:58] [ForkJoinPool-4-worker-21/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:16:58] [ForkJoinPool-4-worker-21/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:17:05] [Server thread/INFO]: No return portal found
+[02:17:07] [Server thread/WARN]: _luniyuxx moved too quickly! -0.324472696690691,-16.30193560575904,0.2995821915846477
+[02:17:17] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:17:17] [Server thread/INFO]: xXxJosue_A left the game
+[02:17:17] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:17:25] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:42253] logged in with entity id 132762 at (564.5, 63.0, -283.5)
+[02:17:25] [Server thread/INFO]: xXxJosue_A joined the game
+[02:17:25] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:17:25] [ForkJoinPool-4-worker-21/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:17:25] [ForkJoinPool-4-worker-21/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:17:37] [Server thread/INFO]: [Not Secure] <ItsMeYo> ve jordan dile que ya hice el camino
+[02:17:38] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:17:38] [Server thread/INFO]: xXxJosue_A left the game
+[02:17:38] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:17:42] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:42637] logged in with entity id 133071 at (564.5, 63.0, -283.5)
+[02:17:42] [Server thread/INFO]: xXxJosue_A joined the game
+[02:17:42] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:17:42] [ForkJoinPool-4-worker-21/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:17:42] [ForkJoinPool-4-worker-21/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:17:59] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:17:59] [Server thread/INFO]: xXxJosue_A left the game
+[02:17:59] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:18:03] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:53731] logged in with entity id 133719 at (564.5, 63.0, -283.5)
+[02:18:03] [Server thread/INFO]: xXxJosue_A joined the game
+[02:18:03] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:18:03] [ForkJoinPool-4-worker-21/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:18:03] [ForkJoinPool-4-worker-21/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:26:19] [Server thread/INFO]: xXxJosue_A lost connection: Timed out
+[02:26:19] [Server thread/INFO]: xXxJosue_A left the game
+[02:26:19] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:26:25] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:39137] logged in with entity id 138177 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:26:25] [Server thread/INFO]: xXxJosue_A joined the game
+[02:26:25] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:26:25] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:26:25] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:26:54] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:26:54] [Server thread/INFO]: xXxJosue_A left the game
+[02:26:54] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:27:00] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:39831] logged in with entity id 138270 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:27:00] [Server thread/INFO]: xXxJosue_A joined the game
+[02:27:00] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:27:00] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:27:00] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:27:14] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:27:14] [Server thread/INFO]: xXxJosue_A left the game
+[02:27:14] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:27:18] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:55799] logged in with entity id 138313 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:27:18] [Server thread/INFO]: xXxJosue_A joined the game
+[02:27:18] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:27:18] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:27:19] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:27:31] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:27:31] [Server thread/INFO]: xXxJosue_A left the game
+[02:27:31] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:27:40] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:57945] logged in with entity id 138628 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:27:40] [Server thread/INFO]: xXxJosue_A joined the game
+[02:27:40] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:27:40] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:27:40] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:28:02] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:28:02] [Server thread/INFO]: xXxJosue_A left the game
+[02:28:02] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:28:10] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:60573] logged in with entity id 138754 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:28:10] [Server thread/INFO]: xXxJosue_A joined the game
+[02:28:10] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:28:10] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:28:10] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:28:29] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:28:29] [Server thread/INFO]: xXxJosue_A left the game
+[02:28:29] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:28:35] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:58343] logged in with entity id 139059 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:28:35] [Server thread/INFO]: xXxJosue_A joined the game
+[02:28:35] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:28:35] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:28:35] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:28:47] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:28:47] [Server thread/INFO]: xXxJosue_A left the game
+[02:28:47] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:28:51] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:47693] logged in with entity id 139448 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:28:51] [Server thread/INFO]: xXxJosue_A joined the game
+[02:28:51] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:28:51] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:28:51] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:29:03] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:29:03] [Server thread/INFO]: xXxJosue_A left the game
+[02:29:03] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:29:07] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:59325] logged in with entity id 139727 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:29:07] [Server thread/INFO]: xXxJosue_A joined the game
+[02:29:07] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:29:07] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:29:07] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:29:16] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:29:16] [Server thread/INFO]: xXxJosue_A left the game
+[02:29:16] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:29:23] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:55525] logged in with entity id 139921 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:29:23] [Server thread/INFO]: xXxJosue_A joined the game
+[02:29:23] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:29:23] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:29:23] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:29:31] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:29:31] [Server thread/INFO]: xXxJosue_A left the game
+[02:29:31] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:29:42] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:35401] logged in with entity id 140150 at (74.53618433363663, 61.0, -32.50189501829937)
+[02:29:42] [Server thread/INFO]: xXxJosue_A joined the game
+[02:29:42] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:29:42] [ForkJoinPool-4-worker-22/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:29:42] [ForkJoinPool-4-worker-22/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:31:27] [Server thread/INFO]: No return portal found
+[02:32:03] [Server thread/INFO]: No return portal found
+[02:37:22] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:37:22] [Server thread/INFO]: xXxJosue_A left the game
+[02:37:22] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:37:25] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:51519] logged in with entity id 142984 at (550.8308663008273, 63.0, -286.0265675443837)
+[02:37:25] [Server thread/INFO]: xXxJosue_A joined the game
+[02:37:25] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:37:25] [ForkJoinPool-4-worker-23/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:37:25] [ForkJoinPool-4-worker-23/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:37:35] [Server thread/INFO]: xXxJosue_A lost connection: Disconnected
+[02:37:35] [Server thread/INFO]: xXxJosue_A left the game
+[02:37:35] [Server thread/INFO]: Removing session data for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:39:23] [Server thread/INFO]: xXxJosue_A[/127.85.241.3:44617] logged in with entity id 143310 at (550.8308663008273, 63.0, -286.0265675443837)
+[02:39:23] [Server thread/INFO]: xXxJosue_A joined the game
+[02:39:23] [Server thread/INFO]: Player xXxJosue_A just logged in with id e25aba2a-4334-376d-b48c-98814a8ca31f
+[02:39:23] [ForkJoinPool-4-worker-24/INFO]: Loading local skin for player xXxJosue_A[e25aba2a-4334-376d-b48c-98814a8ca31f]
+[02:39:24] [ForkJoinPool-4-worker-24/INFO]: Error downloading file https://playerdb.co/api/player/minecraft/xXxJosue_A
+[02:40:54] [Server thread/INFO]: [Not Secure] <_luniyuxx> tienes amdera
+[02:40:56] [Server thread/INFO]: [Not Secure] <_luniyuxx> madera
+[02:40:59] [Server thread/INFO]: [Not Secure] <ItsMeYo> non
+[02:42:34] [Server thread/INFO]: ItsMeYo has made the advancement [Local Brewery]
+[02:44:57] [Server thread/INFO]: [Not Secure] <ItsMeYo> pociones de que hago
+[02:45:02] [Server thread/INFO]: [Not Secure] <ItsMeYo> tya hice de resistencia al fuego
+[02:45:05] [Server thread/INFO]: [Not Secure] <_luniyuxx> desaparicion
+[02:45:09] [Server thread/INFO]: [Not Secure] <_luniyuxx> para que te tomes
+[02:45:13] [Server thread/INFO]: [Not Secure] <_luniyuxx> mentira amor
+[02:45:17] [Server thread/INFO]: [Not Secure] <_luniyuxx> fuerza
+[02:45:20] [Server thread/INFO]: [Not Secure] <ItsMeYo> bue
+[02:53:03] [Server thread/INFO]: Villager class_1646['Leatherworker'/138338, l='ServerLevel[world]', x=564.66, y=63.00, z=-268.85] died, message: 'Leatherworker was slain by xXxJosue_A'
+[02:53:38] [Server thread/INFO]: [Not Secure] <_luniyuxx> chen sabias que el josue toma jugo de agua
+[02:53:50] [Server thread/INFO]: [Not Secure] <ItsMeYo> por
+[02:53:52] [Server thread/INFO]: [Not Secure] <_luniyuxx> olvida ah sido cubo de agua
+[02:56:47] [Server thread/INFO]: ItsMeYo has made the advancement [What a Deal!]
+[02:58:14] [Server thread/INFO]: [Not Secure] <ItsMeYo> ?? wtf
+[03:04:41] [Server thread/INFO]: Villager class_1646['Villager'/138341, l='ServerLevel[world]', x=565.34, y=63.00, z=-305.44] died, message: 'Villager was slain by xXxJosue_A'
+[03:06:00] [Server thread/INFO]: [Not Secure] <ItsMeYo> te ayudo
+[03:06:04] [Server thread/INFO]: [Not Secure] <xXxJosue_A> no
+[03:06:07] [Server thread/INFO]: [Not Secure] <ItsMeYo> bue
+[03:06:09] [Server thread/INFO]: [Not Secure] <xXxJosue_A> ya mismo me voy bb
+[03:06:14] [Server thread/INFO]: [Not Secure] <ItsMeYo> yo igual
+[03:06:15] [Server thread/INFO]: ItsMeYo lost connection: Disconnected
+[03:06:15] [Server thread/INFO]: ItsMeYo left the game
+[03:06:15] [Server thread/INFO]: Removing session data for player ItsMeYo[4b422bb3-5778-30ef-90d3-fa62ebf0458b]
+[03:07:29] [Server thread/INFO]: _luniyuxx has made the advancement [Enchanter]
+[03:08:19] [Server thread/INFO]: [Not Secure] [Server] vean ya tengo que apagar la pc voy a cerrar el sv xd
+[03:08:24] [Server thread/INFO]: [Not Secure] <_luniyuxx> porque
+[03:08:25] [Server thread/INFO]: [Not Secure] <xXxJosue_A> noooo
+[03:08:27] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[03:08:27] [Server thread/INFO]: s<--[HERE]
+[03:08:29] [DefaultDispatcher-worker-2/WARN]: You are running an outdated version of TPA++, latest version: 1.6.0-1.20.x-UNTESTED-BETA-3, your version: 1.6.0-1.20.x-RELEASE-CANDIDATE-1!
+[03:08:29] [DefaultDispatcher-worker-2/WARN]: You are 1 version(s) out of date!
+[03:08:30] [Server thread/INFO]: [Not Secure] <xXxJosue_A> espera
+[03:08:39] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[03:08:39] [Server thread/INFO]: te doy 5 min<--[HERE]
+[03:08:41] [Server thread/INFO]: [Not Secure] <xXxJosue_A> lo cierras a las 10 30
+[03:08:43] [Server thread/INFO]: [Not Secure] [Server] te doy 5 min
+[03:08:51] [Server thread/INFO]: [Not Secure] [Server] o mi ma me pega xd
+[03:09:04] [Server thread/INFO]: [Not Secure] <_luniyuxx> que le abra el josue
+[03:09:05] [Server thread/INFO]: [Not Secure] <_luniyuxx> o yo
+[03:09:24] [Server thread/INFO]: [Not Secure] <xXxJosue_A> pasa tutorial para habrir server nosotrso
+[03:09:28] [Server thread/INFO]: [Not Secure] [Server] no ni de chiste les doy mi contraseña de github, no es como en aternos lamentablemente y busque como compartir codespace y no deja
+[03:09:40] [Server thread/INFO]: [Not Secure] <_luniyuxx> para que quiero tu github
+[03:09:51] [Server thread/INFO]: [Not Secure] [Server] pq de ahi estoy corriendo el sv xd
+[03:10:00] [Server thread/INFO]: [Not Secure] [Server] de donde crees que me saco 16 gb de ram gratis
+[03:10:40] [Server thread/INFO]: [Not Secure] <_luniyuxx> en mi telefono
+[03:10:42] [Server thread/INFO]: [Not Secure] <_luniyuxx> si tiene
+[03:11:55] [Server thread/INFO]: [Not Secure] [Server] no
+[03:12:02] [Server thread/INFO]: [Not Secure] [Server] en 2 min apago mi ma ya saco la correa
+[03:12:12] [Server thread/INFO]: [Not Secure] <_luniyuxx> me parte el corazon tu comentario sijie chen
+[03:12:17] [Server thread/INFO]: [Not Secure] <xXxJosue_A> noooo por fasvir
+[03:12:22] [Server thread/INFO]: [Not Secure] <xXxJosue_A> 20 min mas
+[03:14:16] [Server thread/INFO]: [Not Secure] [Server] y a mi me parte el culo de los correasos que me dara
+[03:14:28] [Server thread/INFO]: [Not Secure] [Server] ya mañana juegan voy a hacer backup del sv
+[03:14:30] [Server thread/INFO]: [Not Secure] [Server] adios
+[03:14:34] [Server thread/INFO]: [Not Secure] <xXxJosue_A> yaya

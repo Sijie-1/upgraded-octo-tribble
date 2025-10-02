@@ -1,5 +1,13 @@
 [
   {
+    "uuid": "1855b0f7-5d85-373b-94d4-bfa6671dbb85",
+    "name": "xxxjose_a",
+    "created": "2025-10-01 23:54:58 +0000",
+    "source": "Server",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
     "uuid": "82f9ec7a-bff4-4a4f-a96b-c7d2eb27410d",
     "name": "Jordan",
     "created": "2025-09-29 16:34:55 +0000",
