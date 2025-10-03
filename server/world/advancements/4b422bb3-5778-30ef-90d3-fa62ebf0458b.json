@@ -729,6 +729,7 @@
       "minecraft:ravager": "2025-10-02 01:36:17 +0000",
       "minecraft:vindicator": "2025-10-02 01:03:21 +0000",
       "minecraft:spider": "2025-09-28 19:28:35 +0000",
+      "minecraft:creeper": "2025-10-03 02:12:59 +0000",
       "minecraft:slime": "2025-09-30 20:13:36 +0000",
       "minecraft:evoker": "2025-10-02 01:03:24 +0000",
       "minecraft:phantom": "2025-10-02 18:41:28 +0000",
@@ -3100,6 +3101,24 @@
   "minecraft:recipes/redstone/redstone_lamp": {
     "criteria": {
       "has_glowstone": "2025-10-02 20:34:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2025-10-03 01:36:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2025-10-03 01:36:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-10-03 02:09:57 +0000"
     },
     "done": true
   },
