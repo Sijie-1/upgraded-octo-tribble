@@ -51,6 +51,7 @@ server_process = subprocess.Popen(
     stderr=sys.stderr
 )
 
+# Cerrar todos los servicios
 try:
     server_process.wait()
     playit_process.wait()

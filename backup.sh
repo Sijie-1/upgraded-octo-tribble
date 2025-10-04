@@ -7,7 +7,7 @@ cd /workspaces/upgraded-octo-tribble
 git add .
 
 # Hacer commit con mensaje
-git commit -m "Actualización del mundo"
+git commit -m "Server Dead"
 
 # Subir los cambios a GitHub
 git push origin main
