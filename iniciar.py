@@ -3,27 +3,30 @@ import time
 import os
 import sys
 
-# Directorios
-server_dir = "/workspaces/upgraded-octo-tribble/server"
-playit_dir = "/workspaces/upgraded-octo-tribble/playit"
+# Resolución dinámica de directorios
+base_dir = os.path.dirname(os.path.abspath(__file__))
+server_dir = os.path.join(base_dir, "server")
+playit_dir = os.path.join(base_dir, "playit")
+jar_path = os.path.join(server_dir, "java-execute.jar")
+playit_executable = os.path.join(playit_dir, "playit")
 
-# Iniciar playit
-print("Iniciando Playit...")
+# Iniciar el túnel de Playit
+print("Iniciando el túnel de Playit...")
 playit_process = subprocess.Popen(
-    [os.path.join(playit_dir, "playit")],
+    [playit_executable],
     cwd=playit_dir,
     stdout=subprocess.DEVNULL,
     stderr=subprocess.DEVNULL
 )
 time.sleep(5)
 
-# Iniciar el servidor de Minecraft
-print("Iniciando servidor de Minecraft...")
+# Iniciar el servidor de Minecraft con parámetros Aikar optimizados y RAM segura
+print("Iniciando el servidor de Minecraft...")
 server_process = subprocess.Popen(
     [
         "java",
-        "-Xms15G",
-        "-Xmx15G",
+        "-Xms12G",
+        "-Xmx12G",
         "-XX:+UseG1GC",
         "-XX:+ParallelRefProcEnabled",
         "-XX:MaxGCPauseMillis=200",
@@ -44,18 +47,18 @@ server_process = subprocess.Popen(
         "-Dusing.aikars.flags=https://mcflags.emc.gs",
         "-Daikars.new.flags=true",
         "-jar",
-        "/workspaces/upgraded-octo-tribble/server/java-execute.jar"
+        jar_path
     ],
     cwd=server_dir,
     stdout=sys.stdout,
     stderr=sys.stderr
 )
 
-# Cerrar todos los servicios
+# Control de cierre de procesos
 try:
     server_process.wait()
     playit_process.wait()
 except KeyboardInterrupt:
-    print("\nDeteniendo procesos...")
+    print("\nInterrupción detectada; deteniendo los procesos en curso...")
     server_process.terminate()
     playit_process.terminate()
