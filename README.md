@@ -1,7 +1,10 @@
-# TUTORIAL COMPLETO: Servidor de Minecraft en GitHub Codespaces con Playit.gg
+# Servidor de Minecraft en GitHub Codespaces con Playit.gg
 
 ## Descripción
 Este documento detalla el procedimiento exacto para configurar un servidor de Minecraft funcional dentro de GitHub Codespaces; además, utiliza Playit.gg para establecer el tunneling de red. Por lo tanto, esta arquitectura resulta ideal para entornos de desarrollo y pruebas cerradas.
+
+## Advertencia de Riesgo y Términos de Servicio
+El uso de GitHub Codespaces para alojar servidores de juegos de forma continua infringe los Términos de Servicio de la plataforma. GitHub asigna estos recursos computacionales de manera exclusiva para el desarrollo y la compilación de código; por consiguiente, los sistemas automatizados de telemetría suspenderán las cuentas que mantengan procesos persistentes de alto consumo. Este documento posee un propósito estrictamente educativo. Debes restringir la ejecución del servidor a periodos breves de desarrollo o configuración y destruir el entorno virtual inmediatamente después de finalizar tu sesión.
 
 ## Tabla de Contenidos
 1. [Prerrequisitos](#1-prerrequisitos)
@@ -66,3 +69,10 @@ chmod +x playit
 2. **¿Cómo modifico la dificultad del mundo?** Edita el archivo `server.properties` y asigna el parámetro deseado a la variable `difficulty=` (opciones admitidas: peaceful, easy, normal, hard).
 3. **¿Cómo personalizo el mensaje de bienvenida (MOTD)?** Localiza la variable `motd=` en el archivo `server.properties` y reemplaza el valor predeterminado por el texto descriptivo de tu servidor.
 4. **¿Cuál es el procedimiento para instalar mods o datapacks?** Sube los archivos en formato `.jar` o `.zip` directamente a las subcarpetas correspondientes (como `mods` o `world/datapacks`) dentro del directorio `server` de tu codespace.
+
+## 9. Resolución de Problemas
+Ejecuta la siguiente secuencia de diagnóstico para corregir fallos críticos durante el despliegue del sistema operativo virtual.
+
+1. Audita la configuración de la máquina virtual si el entorno falla durante la fase de inicialización. Revisa la documentación oficial sobre la [creación de un Codespace](https://docs.github.com/es/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository) para validar los prerrequisitos del repositorio.
+2. Reduce la asignación de memoria RAM en el script `iniciar.py` si el servidor colapsa de forma abrupta. El núcleo de Linux aniquilará el proceso de Java forzosamente porque el contenedor virtual carece de particiones de intercambio (swap).
+3. Detiene y reinicia el agente de túneles si Playit.gg omite la impresión de la URL de vinculación. Asegura la ejecución del proceso en una instancia de terminal independiente para evitar la interrupción de los hilos de red principales.
