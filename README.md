@@ -1,3 +1,5 @@
+Desactualizado
+
 # Servidor de Minecraft en GitHub Codespaces con Playit.gg
 
 ## Descripción
